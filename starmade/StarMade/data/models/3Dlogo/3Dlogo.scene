@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="3.93701" unitType="/10" minOgreVersion="1.7" ogreMaxVersion="2.6.1" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="10000"/>
+    </environment>
+    <nodes>
+        <node name="3Dlogo">
+            <position x="0.512485" y="-0.148046" z="0.629651"/>
+            <scale x="1.71663" y="1.52245" z="1.52245"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="3Dlogo" castShadows="true" receiveShadows="true" meshFile="3Dlogo.mesh">
+                <subentities>
+                    <subentity index="0" materialName="BaseWhite"/>
+                </subentities>
+            </entity>
+        </node>
+        <node name="3Dstar">
+            <position x="0.512485" y="-0.148046" z="0.63392"/>
+            <scale x="1.71663" y="1.52245" z="1.52245"/>
+           <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="3Dstar" castShadows="true" receiveShadows="true" meshFile="3Dstar.mesh">
+                <subentities>
+                    <subentity index="0" materialName="BaseWhite"/>
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

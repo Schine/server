@@ -1,0 +1,21 @@
+00:00:01.000,00:00:04.200
+Cada nave y estación se puede guardar en el catálogo.
+
+00:00:04.600,00:00:09.000
+El catálogo muestra las creaciones que hayas guardado, o aquellas que otros han compartido.
+
+00:00:09.600,00:00:12.400
+Abre el catálogo con la tecla Panel de Catálogo ($CATALOGO_PANEL).
+
+00:00:12.600,00:00:18.600
+Desde aquí la nave actualmente ocupada y todas las entidades atracadas pueden guardarse en el servidor o a un archivo local.
+
+00:00:24.600,00:00:29.000
+Después de haber guardado una nave, su esquema puede ser comprado desde el panel del catálogo.
+
+00:00:29.270,00:00:34.800
+Click derecho en el plano en tu inventario mostrara los componentes que le faltan para ser construido.
+
+00:00:35.080,00:00:39.400
+Cuando el plano este lleno, construye la entidad haciendo click en el boton Spawn.
+

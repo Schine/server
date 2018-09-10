@@ -1,0 +1,21 @@
+00:00:01.000,00:00:04.200
+Alle Schiffe und Stationen können im Katalog gespeichert werden.
+
+00:00:04.600,00:00:09.000
+Der Katalog listet Kreationen die du gespeichert hast auf oder auch solche die jemand anderes geteilt hat.
+
+00:00:09.600,00:00:12.400
+Öffnen den Katalog mit der Katalogtaste ($CATALOG_PANEL).
+
+00:00:12.600,00:00:18.600
+Von hier aus kannst du nun das Schiff in dem zu bist und alle daran angedockten Objekte auf dem Server oder Lokal bei dir speichern.
+
+00:00:24.600,00:00:29.000
+Wenn ein Schiff gespeichert wurde, kann die Blaupause aus dem Katalog gekauft werden.
+
+00:00:29.270,00:00:34.800
+Ein Rechtsklick auf eine Blaupause im Inventar zeigt die zum spawnen benötigten Komponenten an.
+
+00:00:35.080,00:00:39.400
+Wenn die Blaupause gefüllt ist, kann das Objekt mit einem klick auf den Spawn-Button erzeugt werden.
+

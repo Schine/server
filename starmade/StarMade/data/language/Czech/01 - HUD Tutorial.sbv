@@ -1,0 +1,27 @@
+00:00:01.080,00:00:06.800
+Uživatelské rozhraní (HUD systém) poskytuje důležité informace pro navigaci ve vesmíru a interakci s objekty.
+
+00:00:07.020,00:00:13.800
+Hotbar (umisťovací tabulka) je umístěn na spodku uživatelského rozhraní (HUD) a umožňuje přístup k různým předmětům, které zde mohou být umístěny anebo použity.
+
+00:00:14.000,00:00:19.600
+Zvolená část v hotbaru může být označena kterýmkoliv číslem nebo použitím kolečka na myši.
+
+00:00:20.000,00:00:27.000
+Nad Hotbarem je zobrazeno vaše zdraví. Při vyčerpání (smrti) se automaticky objevíte na posledním aktivovaném "Undeathinator".
+
+00:00:27.400,00:00:31.520
+Radar, který ukazuje nejbližší objekty stejně jako momentálně obývaný sektor...
+
+00:00:31.560,00:00:35.060
+je v HUDu umístěn vpravo nahoře společně s několika dalšími ukazateli.
+
+00:00:36.400,00:00:39.400
+První ukazatel svítí pokud se v dosahu nachází obchod.
+
+00:00:39.440,00:00:43.600
+Druhý ukazatel svítí pokud máte ve schránce zprávu.
+
+00:00:43.800,00:00:47.960
+Třetí ukazatel svítí pokud byla obdržena nabídka k obchodu.
+

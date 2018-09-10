@@ -1,0 +1,54 @@
+<Tutorial description="NPC-TUT-00">
+	<Start type="teleportto">
+		<Content>
+		Welcome to starmade, $PLAYER!, my name is "NPC-00"
+		</Content>
+		<Duration>3000</Duration>
+		<BlockPosA>19, 10, 8</BlockPosA>
+		<StructureUID>ENTITY_SPACESTATION_schema_14153_50_50_500</StructureUID>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="activategravity">
+		<Content>
+		I'm over here! Come talk to me so I don't 
+		have to use the radio.
+		
+		I suppose you need to get your bearings!
+		
+		
+		</Content>
+		<StructureUID>ENTITY_SPACESTATION_schema_14153_50_50_500</StructureUID>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="instantiateinventory">
+		<Content>
+		The mouse controls your camera, use it to look around.
+		$FORWARD and $BACKWARDS control your forwards and backwards movements.
+		$STRAFE_LEFT and $STRAFE_RIGHT control your left and right movements.
+		'$JUMP' lets you jump when in gravity!
+		</Content>
+		<Clear>true</Clear>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>End</Satisfied>
+	</StateB>
+	
+	
+	<End type="talktonpc">
+		<Content>
+		Follow the flashing indicator/arrow to come 
+		over and talk to me!
+			
+		(You can exit the tutorial at any time later 
+		from the main menu (press ESC))
+		</Content>
+		<NPCName>NPC-00</NPCName>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

@@ -1,0 +1,55 @@
+v20140204
+
+Animation Structure documentation:
+
+This documentation will gove a short introduction in the current Animation structure.
+
+--------------------------
+
+I. INTERFACE
+
+The interface of using Animations and models is completely detached from the raw data of the models, no raw name of any bone, animation, or mesh is hard coded.
+Instead the game uses a simple XML file to map the raw names to general names, that are then available in game.
+
+--------------------------
+
+II. Config file
+
+The config file is located in ./data/config/mainConfig.xml
+Any text editor (but preferable a specific XML editor) can be used to edit the file.
+
+It contains all information about models, animations, and their basic values.
+
+-- Categories
+There are currently 3 categories to be parsed: 
+  -- GroundObjects -> for basic static meshes used ingame for effects, and other objects
+  -- Building -> currently not being used
+  -- Character -> contains models for all character models as well as creatures
+
+-- Simple Obejects
+Making a mesh available inage is as easy as one line. E.g. for the arrow used in build mode <Arrow filename="arrow"> </Arrow>
+This however doesn't the affect the gameplay (unless an existing value is changed) since there is currently no option to view or spawn random meshes
+
+-- Advanced objects
+Advanced objects come with animation and/or creature information. The structure is explained in the following section
+
+--------------------------
+
+III. the creature tag
+
+the creatur tag is to specify bones logically to be usable as attachment points in game, as well as some meta data for the creature generator.
+This tag must be filled out completely or else the parser will notice an error.
+
+Type: categorizing the creature for the crerature generator
+PartType: There are 3 possible types: bottom, middle and top. This value indicates as what link in the chain this model may be used. Multiple parts are possible (seperated by comma)
+Attachment bones: This section maps the bones of the raw model to the logical bones in game. all bones have to be specified. For missing bones the keyword "none" can be used
+MaxScale: this tag indicated how big this model may be scaled by the generator
+BoxDim: this tag indicates how big in blocks the model can become (for the pathfinding)
+
+--------------------------
+
+IV. the animation tag
+
+This section maps the raw names of the animation to logical names that can be used by the game.
+This tag doesn't have to be filled out completely but its preferrable to do so. For each category there is the possibility to define 'default="defaultAnimationName"' to be used for all missing sub categories.
+For an end category it's possible to dfine multiple animations, each defined by <item>

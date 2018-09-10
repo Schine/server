@@ -1,0 +1,5 @@
+<Meta>
+<Keybinds>Вперед: $FORWARD, Назад: $BACKWARDS, Сдвиг влево: $STRAFE_LEFT, Сдвиг вправо: $STRAFE_RIGHT, 
+Сдвиг вверх: $UP, Сдвиг вниз: $DOWN, Зацепить: $GRAPPLING_HOOK, Прыжок: $JUMP, Ходьба: $WALK, Сесть: $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>

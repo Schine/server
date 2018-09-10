@@ -1,0 +1,15 @@
+00:00:01.240,00:00:07.400
+Rdzenie statku są blokami, na których statki są budowane. Służą one jako kokpit i można przez nie kontrolować moduły statku.
+
+00:00:07.800,00:00:12.400
+Rdzenie statku same w sobie mogą być użyte w celu prostej i dość szybkiej podróży.
+
+00:00:12.800,00:00:18.400
+Naciśnij klawisz tworzenia statku ($SPAWN_SHIP), podczas gdy rdzeń jest w ekwipunku, aby utworzyć przed Tobą nowy statek.
+
+00:00:18.600,00:00:22.000
+Naciśnij na przycisk Aktywuj ($ACTIVATE), aby wejśc lub wyjść z rdzenia statku.
+
+00:00:22.440,00:00:27.440
+Naciśnij na przycisk zmiana trybu statku ($CHANGE_SHIP_MODE), by przejść z trybu lotu do trybu budowy.
+

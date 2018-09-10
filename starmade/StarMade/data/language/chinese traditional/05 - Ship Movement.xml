@@ -1,0 +1,7 @@
+<Meta>
+<Keybinds>前進: $FORWARD_SHIP, 後退: $BACKWARDS_SHIP, 左移: $STRAFE_LEFT_SHIP, 
+右移: $STRAFE_RIGHT_SHIP, 上移: $UP_SHIP, 下移: $DOWN_SHIP, 
+左滾動: $ROTATE_LEFT_SHIP, 右滾動: $ROTATE_RIGHT_SHIP, 滾動船隻: $ROLL, 
+剎車: $BRAKE, 取消滾動: $CANCEL_SHIP, 向北鍵: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

@@ -1,0 +1,128 @@
+<Tutorial description="How to dock ships">
+	<Start type="text">
+		<Content>
+		Welcome to the Docking Tutorial.
+		This tutorial explains how to build
+		docking areas, and how to dock ships
+		and turrets
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		To dock, you need a "fixed docking module",
+		or a "turret docking module". When placing it
+		down, you can change its orientation in the
+		advanced build mode.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+		
+	<StateB type="text">
+		<Content>
+		When it is placed down, you should see the docking
+		area. If it is not green, then something is
+		blocking it. A docking area must be completely
+		free from any block.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		You can increase the size of the area
+		by linking docking enhancer blocks to it.
+		Just press $SELECT_MODULE on the docking
+		module and place down some enhancers.
+		The size is determined by the shape of
+		its enhancers. They must be placed in connecting groups.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		A ship is docked at the centre relative to
+		its size. The ship core will appear right above the docking port 
+		and all parts sticking out must fit in the green area.
+		A turret needs to have its core on the bottom. 
+		That means you cannot build below
+		the core if you want to use it as a turret.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		To dock, select the docking beam (which also
+		activates doors and other activatable blocks)
+		and shoot it on the docking block.
+		Right click will ignore doors so you can dock 
+		without closing them instead.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		If you have problems with docking,
+		dock a single core, and then build on
+		it from its docked position to fully 
+		understand how the docking area system works.
+		
+		If you build on a docked ship, un-docking
+		and re-docking might change its position.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		You can also chain-dock multiple ships
+		together, but you cannot dock anything
+		on a turret yet. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		For turrets to be AI controlled,
+		you have to have the turret factioned with
+		the faction block and also equip it with an AI Module.
+		Press $ACTIVATE on it to make sure it is set to 'turret',
+		then you can either activate it there, or do the same
+		from the structure panel.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+	</StateH>
+	
+	<End type="text">
+		<Content>
+		This concludes the Docking Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

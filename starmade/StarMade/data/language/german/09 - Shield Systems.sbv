@@ -1,0 +1,12 @@
+00:00:01.200,00:00:04.800
+Schilde bilden die erste Ebene der Verteidigung jedes Objekts.
+
+00:00:05.120,00:00:09.600
+Schilde können mit Schildgenerator aufgeladen werden und in Schildspeichern gespeichert werden.
+
+00:00:09.880,00:00:13.200
+Die Auflad rate wird reduziert wenn die Schilde Schaden erleiden.
+
+00:00:13.720,00:00:17.520
+Schilde können auf angedockte Objekte erweitert werden, allerdings sind sie dort dann am schwächsten.
+

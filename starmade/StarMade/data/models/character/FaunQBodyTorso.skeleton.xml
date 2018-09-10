@@ -1,0 +1,12 @@
+<skeleton blendmode="average">
+    <bones>
+        <bone id="0" name="PelvisRoot">
+            <position x="3.74122e-008" y="-5.08622e-015" z="-1.16359e-007"/>
+            <rotation angle="0">
+                <axis x="0.0826011" y="-0.996583" z="1.4203e-007"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy/>
+    <animations/>
+</skeleton>

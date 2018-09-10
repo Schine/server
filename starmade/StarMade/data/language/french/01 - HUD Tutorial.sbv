@@ -1,0 +1,27 @@
+00:00:01.080,00:00:06.800
+L'Affichage tête haute (HUD) fournit des informations essentielles à la navigation spatiale et à l'interaction avec des objets.
+
+00:00:07.020,00:00:13.800
+La barre de raccourcis se situe en bas du HUD et permet l'accès à divers objets qui peuvent être placés ou activés.
+
+00:00:14.000,00:00:19.600
+L'emplacement actif de la barre de raccourci peut être sélectionné avec n'importe quelle touche numérique ou avec la roulette de la souris.
+
+00:00:20.000,00:00:27.000
+Votre santé est affichée au-dessus de la barre de raccourci, une fois vide, vous réapparaîtrez au dernier Résurrecteur activé.
+
+00:00:27.400,00:00:31.520
+Le radar, qui montre les entités à proximité ainsi que le secteur occupé actuellement...
+
+00:00:31.560,00:00:35.060
+se situe dans le coin supérieur droit du HUD, ainsi que plusieurs autres indicateurs.
+
+00:00:36.400,00:00:39.400
+Le premier indicateur s'allume lorsqu'une boutique se trouve à votre portée.
+
+00:00:39.440,00:00:43.600
+Le second indicateur s'allume lorsque vous avez des messages non lus dans votre boîte de réception.
+
+00:00:43.800,00:00:47.960
+Le troisième indicateur s’allume lorsqu’une offre commerciale a été reçue.
+

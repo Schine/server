@@ -1,0 +1,61 @@
+You can switch the build/remove 
+mouse buttons in the option menu.
+----
+You can filter nodes you are not 
+searching for in the navigation menu.
+----
+Use the advanced build mode to 
+place multiple blocks at once.
+----
+Use the advanced build mode to set 
+symmetry planes to divide your work by 8.
+----
+If a pirate station is nearby,
+they will constantly send ships for you.
+----
+The Trading Guild is friendly 
+and restocks shops, as long as you don't attack them.
+----
+You are safe from pirates 
+within the boundaries of a shop.
+----
+If your game gets slow over 
+time, please send in a report.
+----
+In build mode, the arrow at the top indicates 
+which way is the front of the ship.
+----
+There is an option to display a preview 
+of the block you'll place.
+----
+If the GUI is not working,
+please try another resolution.
+----
+Every faction can have one homebase. 
+The base and everything docked to it is invulnerable.
+----
+Be careful not to exit a 
+ship that is still moving.
+----
+You can press the up arrow up to 
+10 seconds after spawning if you are stuck.
+----
+Shift+click will instantly put items 
+from chests into your inventory and vice versa.
+----
+Destroying chests or factories 
+will put their content in space.
+----
+Shift+Enter will let you faction 
+chat without having to write /f.
+----
+/pm lets you send a private 
+message to other players.
+----
+Shops have a limited amount 
+of credits (they replenish over time).
+----
+As admin, you can choose your 
+own ships to spawn as enemies.
+----
+Pirates won't attack cloaked ships.

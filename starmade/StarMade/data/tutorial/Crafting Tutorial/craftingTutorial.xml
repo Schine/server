@@ -1,0 +1,223 @@
+<Tutorial description="This tutorial is about the crafting system">
+	<Start type="text">
+		<Content>
+		Welcome to the Crafing Tutorial.
+		It will explain StarMade's
+		crafting and factory system.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		Crafting in StarMade is based on a "consistence" system.
+		Every craftable element has an amount of
+		other elements it is made from. These other
+		elements again have other elements they are
+		made off and so forth.
+		You can compare this system with a tree that has branches.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		Consistence trees do not loop, so
+		an element (the tree's root) is never in any
+		of the branches of its own crafting tree.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		The other system is using recipes.
+		Recipes just determine fixed product lines.
+		
+		For example: 10 of any ore capsule makes a meta mesh.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		Enough theory for now. Here is how you start
+		with absolutely nothing but your initial
+		personal power beam.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		StarMade's raw resources exist in two groups:
+		Crystal shards and ores. Each planet part
+		has two random resources, while the resources
+		on asteroids are set per type. You'll find 
+		different types of asteroids depending on
+		the distance between the sector and the star.	
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		To start, collect some raw ore by salvaging 
+		some resources with a basic ship or as astronaut.
+		After you've done that, open your inventory with $INVENTORY_PANEL and click the
+		'Craft Capsule' button. This will open your personal 
+		capsule factory. You can also craft a factory block
+		that is faster and more efficient.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		Put one type of shards or ores in it and leave
+		the second slot empty (the processed product will use this slot). 
+		After a short time, you should be
+		getting a lot of capsules from that type.
+		Place those in your inventory.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateG1</Satisfied>
+	</StateG>
+	
+	<StateG1 type="text">
+		<Content>
+		You can click on the 'Production' button
+		to check which raw resource will produce
+		which capsule.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG1>
+	
+	<StateH type="text">
+		<Content>
+		After you made some capsules, click on
+		the 'Micro' button in your inventory and place
+		them there. You need 10 capsules of any(!)
+		type to produce either metal meshes (ore capsules),
+		or circuits (shard capsules).
+		Those two are the base ingredients for most of
+		the blocks in StarMade.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateI</Satisfied>
+	</StateH>
+	
+	<StateI type="text">
+		<Content>
+		When you have either 20 metal meshes or circuits,
+		press on the 'craft macro' button to craft your first macro
+		factory. The macro factory makes every craftable
+		block in the game. You can only place this block
+		on a station or a planet.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateI1</Satisfied>
+	</StateI>
+	
+	<StateI1 type="text">
+		<Content>
+		After you placed a macro factory you will see
+		that it needs power to function. You can provide
+		that power by shooting it with your personal power
+		supply beam, or if you have them, placing down
+		power recharge blocks. If you don't have any power blocks 
+		then it	should focus to craft some in your new factory.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI1>
+	
+	<StateJ type="text">
+		<Content>
+		Open the macro factory with $ACTIVATE and click on
+		change production. You can use the filter and type
+		for example 'power' to quickly find power modules
+		in the drop down menu. After you chose the power recharge
+		module, you can click on graph to see exactly
+		what you need for making that block.
+		</Content>
+		<Image>powerRecipe</Image>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateK</Satisfied>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		IMPORTANT: The factory will only do the last step
+		of the graph. Every step below that will require it's
+		own factory. In this example the only thing that
+		this factory will consume is Metal Mesh and 
+		'Active Varat Processore', which you need to produce
+		in a separate factory (or change the production on this one).
+		</Content>
+		<Image>factoryExp</Image>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>StateL</Satisfied>
+	</StateK>
+	
+	<StateL type="text">
+		<Content>
+		You can of course craft multiple factories
+		to do all  these steps at once.
+		
+		Furthermore you are able to link factories:
+		Press $SELECT_MODULE on the factory you want to be able
+		to take needed materials out for other factories and
+		press $CONNECT_MODULE on those to connect them with it.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateK</Back>
+		<Satisfied>StateM</Satisfied>
+	</StateL>
+	
+	<StateM type="text">
+		<Content>
+		A factory will take ingredients needed from
+		all the factories that are connected to it.
+		This basically enables you to rebuild a whole
+		crafting tree. Then you can put in raw resources
+		in the bottom and get the high level product on the top.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateL</Back>
+		<Satisfied>End</Satisfied>
+	</StateM>
+	
+	<End type="text">
+		<Content>
+		This concludes the Crafting Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

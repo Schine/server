@@ -1,0 +1,24 @@
+00:00:00.880,00:00:02.600
+Pomocí myši se rozhlížíte kolem sebe.
+
+00:00:02.640,00:00:06.560
+Pro základní pohyb používejte klávesy Dopředu ($FORWARD), Dozadu ($BACKWARDS), Úkrok vlevo ($STRAFE_LEFT)...
+
+00:00:06.600,00:00:08.200
+a Úkrok vpravo ($STRAFE_RIGHT).
+
+00:00:08.400,00:00:13.800
+Pro pohyb astronauta mimo gravitační pole použijte klávesy Stoupání ($UP) a Klesání ($DOWN) pro pohyb nahoru a dolů.
+
+00:00:14.400,00:00:18.400
+Když nejste v gravitačním poli, můžete se zachytit objektu pomocí klávesy Úchyt ($GRAPPLING_HOOK).
+
+00:00:19.000,00:00:23.000
+Pro vertikální pohyb astronauta v gravitačním poli použijte klávesu Skok ($JUMP).
+
+00:00:23.400,00:00:27.600
+Při pohybu v gravitaci se můžete pohybovat pomaleji pomocí klávesy Pomalá chůze ($WALK).
+
+00:00:27.800,00:00:30.680
+Na většině bloků lze sedět pomocí klávesy Sednout ($SIT).
+

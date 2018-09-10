@@ -1,0 +1,15 @@
+00:00:01.240,00:00:07.400
+Schiffskerne sind das Grundgerüst um Schiffe zu bauen, sie erlauben den Zugriff auf den Schiffsbau- und Flugmodus.
+
+00:00:07.800,00:00:12.400
+Schiffskerne alleine können als Schiffe für einfach und relativ schnelle Flüge verwendet werden.
+
+00:00:12.800,00:00:18.400
+Benutze die Schiffsspawntaste ($SPAWN_SHIP) wenn sich in deinem Inventar ein Schiffskern befindet um direkt vor die ein Schiff zu erzeugen.
+
+00:00:18.600,00:00:22.000
+Drücke die Aktivierentaste ($ACTIVATE) um den Schiffskern zu betreten oder zu verlassen.
+
+00:00:22.440,00:00:27.440
+Drücke die Schiffsmoduswechseltaste ($CHANGE_SHIP_MODE) um zwischen dem Schiffsflugmodus und dem Baumodus zu wechseln.
+

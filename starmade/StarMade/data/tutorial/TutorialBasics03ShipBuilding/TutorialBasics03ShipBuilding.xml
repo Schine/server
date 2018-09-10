@@ -1,0 +1,137 @@
+<Tutorial description="NPC-TUT-03">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		
+		Now let's build a ship from the scratch!
+		</Content>
+		<structureuid>ENTITY_SHIP_tutorialShip00</structureuid>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="spawnship">
+		<Content>
+		Spawn a ship with '$SPAWN_SHIP' and give it a name.
+		
+		(don't look at ground/walls because 
+		the core needs space to spawn)
+		</Content>
+		<blockPosA>8,8,8</blockPosA>
+		<structureuid>ENTITY_SHIP_tutorialShip00</structureuid>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="getintolastspawnedship">
+		<Content>
+		Awesome! Now you can enter your first
+		ship with '$ENTER_SHIP'
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>	
+	
+	<StateC type="activateBuildMode">
+		<Content>
+		Switch to build mode 
+		with the '$CHANGE_SHIP_MODE'
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateE</Satisfied>
+		<Condition failTo="stateB" >InLastSpawnedShip</Condition>
+	</StateC>	
+	
+	
+	<StateE type="text">
+		<Content>
+		This is build mode. It's best to build in this mode,
+		as you can accelerate movement with Right Shift, and
+		pass through anything. You are also always aligned to
+		this ship, and of course you can use the advanced
+		build tools.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateF</Satisfied>
+		<Condition failTo="stateB">InLastSpawnedShip</Condition>
+		<Condition failTo="StateC">inBuildMode</Condition>
+	</StateE>	
+	
+	<StateF type="text">
+		<Content>
+		Now let's make your ship flyable first.
+		Place the power and thruster anywhere on your ship.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+		<Condition failTo="stateB">InLastSpawnedShip</Condition>
+		<Condition failTo="StateC">inBuildMode</Condition>
+	</StateF>
+	
+	<StateG type="placeblockonlastspawned">
+		<Content>
+		Place a power module 
+		anywhere on your ship
+		(left click)
+		</Content>
+		<TypeA>2</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateJ</Satisfied>
+		<Condition failTo="stateB">InLastSpawnedShip</Condition>
+		<Condition failTo="StateC">inBuildMode</Condition>
+	</StateG>
+	
+	<StateJ type="placeblockonlastspawned">
+		<Content>
+		Now, place a thruster 
+		module anywhere on your ship
+		(left click)
+		</Content>
+		<TypeA>8</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateK</Satisfied>
+		<Condition failTo="stateB">InLastSpawnedShip</Condition>
+		<Condition failTo="StateC">inBuildMode</Condition>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		Very nice!
+		Note, that you can save a blueprint of a ship at any time
+		in the 'Catalog', buy a copy of it at any shop
+		and then spawn it by just providing
+		the necessary blocks.
+		
+		Just press '$CATALOG_PANEL' to open the catalog panel. 
+		
+		You can even bring your own creations
+		into other universes (multiplayer servers).
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>End</Satisfied>
+		<Condition failTo="stateB">InLastSpawnedShip</Condition>
+		<Condition failTo="StateC">inBuildMode</Condition>
+	</StateK>
+	
+	<End type="talktonpc">
+		<Content>
+		Ok, now please come talk to me!
+		
+		(Exit ship with '$ENTER_SHIP' while not looking at your ship)
+		</Content>
+		<NPCName>NPC-02</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+	</End>	
+	
+
+</Tutorial>

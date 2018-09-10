@@ -1,0 +1,20 @@
+<Tutorial description="NPC-TUT-00-B">
+	<Start type="skip">
+		<Content>
+		</Content>
+		<Duration>1</Duration>
+		<Satisfied>End</Satisfied>
+	</Start>
+	
+	
+	<End type="talktonpc">
+		<Content>
+		Follow me and talk to NPC-01!
+		</Content>
+		<SkipWindowMessage>true</SkipWindowMessage>
+		<NPCName>NPC-01</NPCName>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

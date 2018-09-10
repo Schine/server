@@ -1,0 +1,568 @@
+<BlockBehavior>
+        <General>
+                <BasicValues>                        <!-- totalUnitShieldCapacity = (unitSize*ShieldExtraCapacityMultPerUnit) -->
+                        <ShieldExtraCapacityMultPerUnit>1</ShieldExtraCapacityMultPerUnit>                        <!-- totalUnitShieldRecharge = (unitSize*ShieldExtraRechargeMultPerUnit) -->
+                        <ShieldExtraRechargeMultPerUnit>1</ShieldExtraRechargeMultPerUnit>                                                <!-- shieldCapacity = ((totalUnitShieldCapacity*ShieldCapacityPreMul)^ShieldCapacityPow)*ShieldCapacityTotalMul -->
+                        <ShieldCapacityPow>0.66666</ShieldCapacityPow>
+                        <ShieldCapacityPreMul>3.5</ShieldCapacityPreMul>
+                        <ShieldCapacityTotalMul>350.0</ShieldCapacityTotalMul>                                                <!-- shieldRecharge = ((totalUnitShieldRecharge*ShieldRechargePreMul)^ShieldRechargePow)*ShieldRechargeTotalMul -->
+                        <ShieldRechargePow>0.5</ShieldRechargePow>
+                        <ShieldRechargePreMul>5.0</ShieldRechargePreMul>
+                        <ShieldRechargeTotalMul>50.0</ShieldRechargeTotalMul>
+                        <ShieldRecoveryTimeAfterOutage>15</ShieldRecoveryTimeAfterOutage>
+                        <PowerDivFactor>0.333</PowerDivFactor>
+                        <PowerCeiling>1000000.0</PowerCeiling>
+                        <PowerGrowth>1.000696</PowerGrowth>
+                        <PowerLinearGrowth>25.0</PowerLinearGrowth>
+                        <PowerRecoveryTime>1000</PowerRecoveryTime>
+                        <PowerBaseCapacity>50000</PowerBaseCapacity>
+                </BasicValues>
+        </General>
+        <Thruster>
+                <BasicValues>
+                        <PowPerThrustCollection>1.125</PowPerThrustCollection>       <!-- velocities in this config are based on the assumption of 100 being the server max speed -->
+                </BasicValues>
+        </Thruster>
+        <Cloaking>
+                <BasicValues>
+                        <PowerConsumedPerSecondPerBlock>145</PowerConsumedPerSecondPerBlock>
+                </BasicValues>
+        </Cloaking>
+        <Jamming>
+                <BasicValues>
+                        <PowerConsumedPerSecondPerBlock>5</PowerConsumedPerSecondPerBlock>
+                </BasicValues>
+        </Jamming>
+        <Explosive>
+                <BasicValues>
+                        <BlockDamage>200</BlockDamage>
+                        <PlayerDamage>200</PlayerDamage>
+                        <Radius>8</Radius>
+                </BasicValues>
+        </Explosive>
+        <SalvageBeam>
+                <BasicValues>
+                        <PowerConsumption>50</PowerConsumption>
+                        <Distance>100</Distance>                        <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <SpeedPowPerUnit>1.2</SpeedPowPerUnit>          <!-- this non linear scaling up of beam ROF the larger an array is will impact balance in a nasty way, can we make it a set value -->
+                        <SpeedMultPerUnit>7</SpeedMultPerUnit>
+                </BasicValues>
+        </SalvageBeam>
+        <PowerDrain>
+                <BasicValues>
+                        <DrainPerHit>20</DrainPerHit>
+                        <PowerConsumption>10</PowerConsumption>
+                        <Distance>400</Distance>                        <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <SpeedPowPerUnit>1.2</SpeedPowPerUnit>          <!-- this non linear scaling up of beam ROF the larger an array is will impact balance in a nasty way, can we make it a set value -->
+                        <SpeedMultPerUnit>7</SpeedMultPerUnit>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <HitSpeed style="nerf" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="nerf" value="10" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="skip" />
+                        </Cannon>
+                        <Missile>
+                                <HitSpeed style="skip" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="buff" value="10" />
+                        </Missile>
+                        <Beam>
+                                <HitSpeed style="skip" />
+                                <Distance style="buff" value="2.5" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="skip" />
+                                <Split style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <HitSpeed style="buff" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="buff" value="10" />
+                                <PowerPerHit style="buff" value="10" />
+                                <Split style="skip" />
+                        </Pulse>
+                </Combination>
+        </PowerDrain>
+        <PowerSupply>
+                <BasicValues>
+                        <SupplyPerHit>40</SupplyPerHit>
+                        <PowerConsumption>60</PowerConsumption>
+                        <Distance>200</Distance>                        <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <SpeedPowPerUnit>1.2</SpeedPowPerUnit>          <!-- this non linear scaling up of beam ROF the larger an array is will impact balance in a nasty way, can we make it a set value -->
+                        <SpeedMultPerUnit>7</SpeedMultPerUnit>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <HitSpeed style="nerf" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="nerf" value="10" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="skip" />
+                       </Cannon>
+                       <Missile>
+                                <HitSpeed style="skip" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="buff" value="10" />
+                        </Missile>
+                        <Beam>
+                                <HitSpeed style="skip" />
+                                <Distance style="buff" value="2.5" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="skip" />
+                                <Split style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <HitSpeed style="buff" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="buff" value="10" />
+                                <PowerPerHit style="buff" value="10" />
+                                <Split style="skip" />
+                        </Pulse>
+                </Combination>
+        </PowerSupply>
+        <RepairBeam>
+                <BasicValues>
+                        <RepairPerHit>10</RepairPerHit>
+                        <PowerConsumption>200</PowerConsumption>
+                        <Distance>100</Distance>                        <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <SpeedPowPerUnit>1.13</SpeedPowPerUnit>          <!-- this non linear scaling up of beam ROF the larger an array is will impact balance in a nasty way, can we make it a set value -->
+                        <SpeedMultPerUnit>2</SpeedMultPerUnit>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <HitSpeed style="nerf" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="nerf" value="10" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="skip" />
+                        </Cannon>
+                        <Missile>
+                                <HitSpeed style="skip" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="buff" value="10" />
+                        </Missile>
+                        <Beam>
+                                <HitSpeed style="skip" />
+                                <Distance style="buff" value="2.5" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="skip" />
+                                <Split style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <HitSpeed style="buff" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="buff" value="10" />
+                                <PowerPerHit style="buff" value="10" />
+                                <Split style="skip" />
+                        </Pulse>
+                </Combination>
+        </RepairBeam>
+        <Trigger>
+        </Trigger>
+        <Activation>
+        </Activation>
+        <FafoMissile>        <!-- this module is going to be removed -->
+        </FafoMissile>
+        <HeatMissile>        <!-- this module is going to be removed -->
+        </HeatMissile>
+        <Factory>
+        </Factory>
+        <TurretDockingBlock>
+        </TurretDockingBlock>
+        <FixedDockingBlock>
+        </FixedDockingBlock>
+        <Cannon>
+                <BasicValues>
+                        <Damage>20</Damage>
+                        <Distance>1000</Distance>
+                        <Speed>2</Speed> <!-- In relation % to server max speed -->
+                        <ReloadMs>5000</ReloadMs>
+                        <PowerConsumption>200</PowerConsumption>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <Damage style="nerf" value="50" />
+                                <Reload style="buff" inverse="true" value="50" />      <!-- whats with all the inverse functions? these are just confusing compared to the standard buff & nerf -->
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="skip" />
+                                <PowerConsumption style="nerf" value="50" />
+                        </Cannon>
+                        <Missile>
+                                <Damage style="nerf" value="10" />
+                                <Reload style="skip" />
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="buff" value="10" />
+                                <PowerConsumption inverse="true" style="skip" />
+                        </Missile>
+                        <Beam>
+                                <Damage style="skip" />   <!-- is the combo system counting damage from all blocks, or only its primary? if its all blocks, this stat needs to be 2 -->
+                                <Reload style="skip" />
+                                <Distance style="buff" value="2" />
+                                <Speed style="buff" value="2" />
+                                <Split style="skip" />
+                                <PowerConsumption inverse="true" style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <Damage style="buff" value="6" />
+                                <Reload style="nerf" inverse="true" value="6" />
+                                <Distance style="skip" />
+                                <Speed style="skip" />
+                                <Split style="skip" />
+                                <PowerConsumption style="buff" value="6" />
+                        </Pulse>
+                </Combination>
+        </Cannon>
+        <DumbMissile>
+                <BasicValues>
+                        <Damage>40</Damage>
+                        <Distance>1000</Distance>
+                        <Radius>10</Radius>                       <!-- is this a maximum blast radius -->
+                        <Speed>2.5</Speed>                <!-- a fast speed is ok but missiles REALLY should get put on an acceleration curve based on weapon system size and max server speed -->
+                        <ReloadMs>10000</ReloadMs>
+                        <PowerConsumption>400</PowerConsumption>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <Damage style="nerf" value="5" />
+                                <Reload style="buff" inverse="true" value="5" />
+                                <Distance style="skip" />
+                                <BlastRadius style="nerf" value="2" />
+                                <Speed style="skip" />
+                                <Split style="skip" />
+                                <Mode style="set" value="1"/> <!-- Heat Seeker Missile -->
+                                <PowerConsumption style="skip" />
+                        </Cannon>
+                        <Missile>
+                                <Damage style="nerf" value="20" />
+                                <Reload style="skip" />
+                                <Distance style="skip" />
+                                <BlastRadius style="nerf" value="2" />
+                                <Speed style="nerf" value="2" />
+                                <Split style="buff" value="20" />
+                                <Mode style="set" value="1"/><!-- Heat Seeker Missile -->
+                                <PowerConsumption style="skip" />
+                        </Missile>
+                        <Beam>
+                                <Damage style="skip" />
+                                <Reload style="skip" />
+                                <Distance style="buff" value="2" />
+                                <BlastRadius style="skip" />
+                                <Speed style="buff" value="1.5" />
+                                <Split style="skip" />
+                                <Mode style="set" value="2"/><!-- Smart Missile -->
+                                <PowerConsumption style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <Damage style="buff" value="6" />
+                                <Reload style="nerf" inverse="true" value="6" />
+                                <Distance style="skip" />
+                                <BlastRadius style="buff" value="2" />
+                                <Speed style="nerf" value="2" />
+                                <Split style="skip" />
+                                <Mode style="set" value="2"/><!-- Smart Missile -->
+                                <PowerConsumption style="skip" />
+                        </Pulse>
+                </Combination>
+        </DumbMissile>
+        <DamageBeam>
+                <BasicValues>
+                        <DamagePerHit>10</DamagePerHit>
+                        <PowerConsumptionPerSec>500</PowerConsumptionPerSec>       <!-- this needs to be power consumed per damage tick -->
+                        <Distance>500</Distance>                        <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                        <SpeedPowPerUnit>1.13</SpeedPowPerUnit>          <!-- this non linear scaling up of beam ROF the larger an array is will impact balance in a nasty way, can we make it a set value -->
+                        <SpeedMultPerUnit>3</SpeedMultPerUnit>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <HitSpeed style="nerf" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="nerf" value="10" />        <!--- Power consumption has always been listed on the bottom per combo except here, can it be moved or is its location in the middle vital to the code -->
+                                <PowerPerHit style="nerf" value="10" />
+                                <Split style="skip" />
+                        </Cannon>
+                        <Missile>
+                                <HitSpeed style="nerf" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="nerf" value="10" />
+                                <PowerPerHit style="skip" />
+                                <Split style="buff" value="10" />
+                        </Missile>
+                        <Beam>
+                                <HitSpeed style="skip" />
+                                <Distance style="buff" value="2.5" />
+                                <PowerConsumption style="skip" />
+                                <PowerPerHit style="skip" />
+                                <Split style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <HitSpeed style="buff" value="10" />
+                                <Distance style="skip" />
+                                <PowerConsumption style="buff" value="10" />
+                                <PowerPerHit style="buff" value="10" />
+                                <Split style="skip" />
+                        </Pulse>
+                </Combination>
+        </DamageBeam>
+        <DamagePulse>
+                <BasicValues>
+                        <Damage>100</Damage>
+                        <ReloadMs>2000</ReloadMs>
+                        <Radius>125</Radius>                         <!-- is this max radius, what is this effecting -->
+                        <PowerConsumption>1000</PowerConsumption>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <PulsePower style="nerf" value="5" />                <!-- is this the same as PowerPerHit? -->
+                                <Reload style="buff" inverse="true" value="5" />
+                                <Radius style="skip" />
+                                <PowerConsumption style="nerf" value="5" />
+                        </Cannon>
+                        <Missile>
+                                <PulsePower style="nerf" value="5" />             <!-- since the pulse is a localized burst, creating multiples overlapping is pointless, so we simply mimic the cannon slaved effect and increase rate of fire -->
+                                <Reload style="buff" inverse="true" value="5" />
+                                <Radius style="skip" />
+                                <PowerConsumption style="nerf" value="5" />
+                        </Missile>
+                        <Beam>
+                                <PulsePower style="skip" />
+                                <Reload style="skip" />
+                                <Radius style="buff" value="3.2" />  <!-- this should match the drain beams default range -->
+                                <PowerConsumption style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <PulsePower style="buff" value="5" />
+                                <Reload style="nerf" inverse="true" value="5" />
+                                <Radius style="skip" />
+                                <PowerConsumption style="skip" />
+                        </Pulse>
+                </Combination>
+        </DamagePulse>
+        <PushPulse>
+                <BasicValues>
+                        <Force>20</Force>
+                        <ReloadMs>2000</ReloadMs>
+                        <Radius>125</Radius>
+                        <PowerConsumption>200</PowerConsumption>
+                </BasicValues>
+                <Combination>
+                        <Cannon>
+                                <PulsePower style="nerf" value="5" />
+                                <Reload style="buff" inverse="true" value="5" />
+                                <Radius style="skip" />
+                                <PowerConsumption style="nerf" value="5" />
+                        </Cannon>
+                        <Missile>
+                                <PulsePower style="nerf" value="5" />
+                                <Reload style="buff"  inverse="true" value="5"/>
+                                <Radius style="skip" />
+                                <PowerConsumption style="nerf" value="5" />
+                        </Missile>
+                        <Beam>
+                                <PulsePower style="skip" />
+                                <Reload style="skip"  inverse="true"/>
+                                <Radius style="buff" value="3.2" />
+                                <PowerConsumption style="skip" />
+                        </Beam>
+                        <Pulse>
+                                <PulsePower style="buff" value="5" />
+                                <Reload style="nerf" inverse="true" value="5" />
+                                <Radius style="skip" />
+                                <PowerConsumption style="skip"/>
+                        </Pulse>
+                </Combination>
+        </PushPulse>
+        <EMP>
+                <BasicValues>
+                        <CannonBasePowerConsumption>1</CannonBasePowerConsumption>
+                        <CannonBlockDamageBonus>1</CannonBlockDamageBonus>
+                        <CannonShieldDamageBonus>-0.5</CannonShieldDamageBonus>
+                        <CannonPowerDamageBonus>0</CannonPowerDamageBonus>
+                        <CannonExplosiveRadius>0</CannonExplosiveRadius>
+                        <CannonArmorEfficiency>1</CannonArmorEfficiency>
+                        <CannonPullEffect>0</CannonPullEffect>
+                        <CannonPushEffect>0</CannonPushEffect>
+                        <CannonGrabEffect>0</CannonGrabEffect>
+                        <MissileBasePowerConsumption>1</MissileBasePowerConsumption>
+                        <MissileBlockDamageBonus>1</MissileBlockDamageBonus>
+                        <MissileShieldDamageBonus>-0.5</MissileShieldDamageBonus>
+                        <MissilePowerDamageBonus>0</MissilePowerDamageBonus>
+                        <MissileExplosiveRadius>0</MissileExplosiveRadius>
+                        <MissileArmorEfficiency>1</MissileArmorEfficiency>
+                        <MissilePullEffect>0</MissilePullEffect>
+                        <MissilePushEffect>0</MissilePushEffect>
+                        <MissileGrabEffect>0</MissileGrabEffect>
+                        <PulseBasePowerConsumption>1</PulseBasePowerConsumption>
+                        <PulseBlockDamageBonus>1</PulseBlockDamageBonus>
+                        <PulseShieldDamageBonus>-0.5</PulseShieldDamageBonus>
+                        <PulsePowerDamageBonus>0</PulsePowerDamageBonus>
+                        <PulseExplosiveRadius>0</PulseExplosiveRadius>
+                        <PulseArmorEfficiency>1</PulseArmorEfficiency>
+                        <PulsePullEffect>0</PulsePullEffect>
+                        <PulsePushEffect>0</PulsePushEffect>
+                        <PulseGrabEffect>0</PulseGrabEffect>
+                        <BeamBasePowerConsumption>1</BeamBasePowerConsumption>
+                        <BeamBlockDamageBonus>1</BeamBlockDamageBonus>
+                        <BeamShieldDamageBonus>-0.5</BeamShieldDamageBonus>
+                        <BeamPowerDamageBonus>0</BeamPowerDamageBonus>
+                        <BeamExplosiveRadius>0</BeamExplosiveRadius>
+                        <BeamArmorEfficiency>1</BeamArmorEfficiency>
+                        <BeamPullEffect>0</BeamPullEffect>
+                        <BeamPushEffect>0</BeamPushEffect>
+                        <BeamGrabEffect>0</BeamGrabEffect>
+                        <Piercing>false</Piercing>
+                        <PunchThrough>false</PunchThrough>
+                        <Explosive>false</Explosive>
+                        <PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
+                        <PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
+                        <DefensiveBasePowerConsumption>1000</DefensiveBasePowerConsumption>
+                </BasicValues>
+        </EMP>
+        <PunchThrough>
+                <BasicValues>
+                        <CannonBasePowerConsumption>1</CannonBasePowerConsumption>
+                        <CannonBlockDamageBonus>1</CannonBlockDamageBonus>
+                        <CannonShieldDamageBonus>-0.5</CannonShieldDamageBonus>
+                        <CannonPowerDamageBonus>0</CannonPowerDamageBonus>
+                        <CannonExplosiveRadius>0</CannonExplosiveRadius>
+                        <CannonArmorEfficiency>1</CannonArmorEfficiency>
+                        <CannonPullEffect>0</CannonPullEffect>
+                        <CannonPushEffect>0</CannonPushEffect>
+                        <CannonGrabEffect>0</CannonGrabEffect>
+                        <MissileBasePowerConsumption>1</MissileBasePowerConsumption>
+                        <MissileBlockDamageBonus>1</MissileBlockDamageBonus>
+                        <MissileShieldDamageBonus>-0.5</MissileShieldDamageBonus>
+                        <MissilePowerDamageBonus>0</MissilePowerDamageBonus>
+                        <MissileExplosiveRadius>0</MissileExplosiveRadius>
+                        <MissileArmorEfficiency>1</MissileArmorEfficiency>
+                        <MissilePullEffect>0</MissilePullEffect>
+                        <MissilePushEffect>0</MissilePushEffect>
+                        <MissileGrabEffect>0</MissileGrabEffect>
+                        <PulseBasePowerConsumption>1</PulseBasePowerConsumption>
+                        <PulseBlockDamageBonus>1</PulseBlockDamageBonus>
+                        <PulseShieldDamageBonus>-0.5</PulseShieldDamageBonus>
+                        <PulsePowerDamageBonus>0</PulsePowerDamageBonus>
+                        <PulseExplosiveRadius>0</PulseExplosiveRadius>
+                        <PulseArmorEfficiency>1</PulseArmorEfficiency>
+                        <PulsePullEffect>0</PulsePullEffect>
+                        <PulsePushEffect>0</PulsePushEffect>
+                        <PulseGrabEffect>0</PulseGrabEffect>
+                        <BeamBasePowerConsumption>1</BeamBasePowerConsumption>
+                        <BeamBlockDamageBonus>1</BeamBlockDamageBonus>
+                        <BeamShieldDamageBonus>-0.5</BeamShieldDamageBonus>
+                        <BeamPowerDamageBonus>0</BeamPowerDamageBonus>
+                        <BeamExplosiveRadius>0</BeamExplosiveRadius>
+                        <BeamArmorEfficiency>1</BeamArmorEfficiency>
+                        <BeamPullEffect>0</BeamPullEffect>
+                        <BeamPushEffect>0</BeamPushEffect>
+                        <BeamGrabEffect>0</BeamGrabEffect>
+                        <Piercing>false</Piercing>
+                        <PunchThrough>true</PunchThrough>
+                        <Explosive>false</Explosive>
+                        <PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
+                        <PunchThroughDamagePreserved>1</PunchThroughDamagePreserved>
+                        <DefensiveBasePowerConsumption>1000</DefensiveBasePowerConsumption>
+                </BasicValues>
+        </PunchThrough>
+        <Piercing>
+                <BasicValues>
+                        <CannonBasePowerConsumption>1</CannonBasePowerConsumption>
+                        <CannonBlockDamageBonus>1</CannonBlockDamageBonus>
+                        <CannonShieldDamageBonus>-0.5</CannonShieldDamageBonus>
+                        <CannonPowerDamageBonus>0</CannonPowerDamageBonus>
+                        <CannonExplosiveRadius>0</CannonExplosiveRadius>
+                        <CannonArmorEfficiency>1</CannonArmorEfficiency>
+                        <CannonPullEffect>0</CannonPullEffect>
+                        <CannonPushEffect>0</CannonPushEffect>
+                        <CannonGrabEffect>0</CannonGrabEffect>
+                        <MissileBasePowerConsumption>1</MissileBasePowerConsumption>
+                        <MissileBlockDamageBonus>1</MissileBlockDamageBonus>
+                        <MissileShieldDamageBonus>-0.5</MissileShieldDamageBonus>
+                        <MissilePowerDamageBonus>0</MissilePowerDamageBonus>
+                        <MissileExplosiveRadius>0</MissileExplosiveRadius>
+                        <MissileArmorEfficiency>1</MissileArmorEfficiency>
+                        <MissilePullEffect>0</MissilePullEffect>
+                        <MissilePushEffect>0</MissilePushEffect>
+                        <MissileGrabEffect>0</MissileGrabEffect>
+                        <PulseBasePowerConsumption>1</PulseBasePowerConsumption>
+                        <PulseBlockDamageBonus>1</PulseBlockDamageBonus>
+                        <PulseShieldDamageBonus>-0.5</PulseShieldDamageBonus>
+                        <PulsePowerDamageBonus>0</PulsePowerDamageBonus>
+                        <PulseExplosiveRadius>0</PulseExplosiveRadius>
+                        <PulseArmorEfficiency>1</PulseArmorEfficiency>
+                        <PulsePullEffect>0</PulsePullEffect>
+                        <PulsePushEffect>0</PulsePushEffect>
+                        <PulseGrabEffect>0</PulseGrabEffect>
+                        <BeamBasePowerConsumption>1</BeamBasePowerConsumption>
+                        <BeamBlockDamageBonus>1</BeamBlockDamageBonus>
+                        <BeamShieldDamageBonus>-0.5</BeamShieldDamageBonus>
+                        <BeamPowerDamageBonus>0</BeamPowerDamageBonus>
+                        <BeamExplosiveRadius>0</BeamExplosiveRadius>
+                        <BeamArmorEfficiency>1</BeamArmorEfficiency>
+                        <BeamPullEffect>0</BeamPullEffect>
+                        <BeamPushEffect>0</BeamPushEffect>
+                        <BeamGrabEffect>0</BeamGrabEffect>
+                        <Piercing>true</Piercing>
+                        <PunchThrough>false</PunchThrough>
+                        <Explosive>false</Explosive>
+                        <PiercingDamagePreservedOnImpact>0.5</PiercingDamagePreservedOnImpact>
+                        <PunchThroughDamagePreserved>0.0</PunchThroughDamagePreserved>
+                        <DefensiveBasePowerConsumption>1000</DefensiveBasePowerConsumption>
+                </BasicValues>
+        </Piercing>
+        <ExplosionEffect>
+                <BasicValues>
+                        <CannonBasePowerConsumption>1</CannonBasePowerConsumption>
+                        <CannonBlockDamageBonus>1</CannonBlockDamageBonus>
+                        <CannonShieldDamageBonus>-0.5</CannonShieldDamageBonus>
+                        <CannonPowerDamageBonus>0</CannonPowerDamageBonus>
+                        <CannonExplosiveRadius>3</CannonExplosiveRadius>
+                        <CannonArmorEfficiency>1</CannonArmorEfficiency>
+                        <CannonPullEffect>0</CannonPullEffect>
+                        <CannonPushEffect>0.1</CannonPushEffect>
+                        <CannonGrabEffect>0</CannonGrabEffect>
+                        <MissileBasePowerConsumption>1</MissileBasePowerConsumption>
+                        <MissileBlockDamageBonus>1</MissileBlockDamageBonus>
+                        <MissileShieldDamageBonus>-0.5</MissileShieldDamageBonus>
+                        <MissilePowerDamageBonus>0</MissilePowerDamageBonus>
+                        <MissileExplosiveRadius>3</MissileExplosiveRadius>
+                        <MissileArmorEfficiency>1</MissileArmorEfficiency>
+                        <MissilePullEffect>0</MissilePullEffect>
+                        <MissilePushEffect>0.2</MissilePushEffect>
+                        <MissileGrabEffect>0</MissileGrabEffect>
+                        <PulseBasePowerConsumption>1</PulseBasePowerConsumption>
+                        <PulseBlockDamageBonus>1</PulseBlockDamageBonus>
+                        <PulseShieldDamageBonus>-0.5</PulseShieldDamageBonus>
+                        <PulsePowerDamageBonus>0</PulsePowerDamageBonus>
+                        <PulseExplosiveRadius>3</PulseExplosiveRadius>
+                        <PulseArmorEfficiency>1</PulseArmorEfficiency>
+                        <PulsePullEffect>0</PulsePullEffect>
+                        <PulsePushEffect>0.4</PulsePushEffect>
+                        <PulseGrabEffect>0</PulseGrabEffect>
+                        <BeamBasePowerConsumption>1</BeamBasePowerConsumption>
+                        <BeamBlockDamageBonus>1</BeamBlockDamageBonus>
+                        <BeamShieldDamageBonus>-0.5</BeamShieldDamageBonus>
+                        <BeamPowerDamageBonus>0</BeamPowerDamageBonus>
+                        <BeamExplosiveRadius>3</BeamExplosiveRadius>
+                        <BeamArmorEfficiency>1</BeamArmorEfficiency>
+                        <BeamPullEffect>0</BeamPullEffect>
+                        <BeamPushEffect>0.05</BeamPushEffect>
+                        <BeamGrabEffect>0</BeamGrabEffect>
+                        <Piercing>false</Piercing>
+                        <PunchThrough>false</PunchThrough>
+                        <Explosive>true</Explosive>
+                        <PiercingDamagePreservedOnImpact>0</PiercingDamagePreservedOnImpact>
+                        <PunchThroughDamagePreserved>0</PunchThroughDamagePreserved>
+                        <DefensiveBasePowerConsumption>1000</DefensiveBasePowerConsumption>
+                </BasicValues>
+        </ExplosionEffect>
+</BlockBehavior>

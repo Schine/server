@@ -1,0 +1,123 @@
+<Tutorial description="How AI works in StarMade">
+	<Start type="text">
+		<Content>
+		Welcome to the AI Tutorial.
+		This tutorial will teach you about
+		the AI functionality in StarMade
+		and how to use it.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		StarMade offers two modes for AI
+		at this moment: Ship and Turret. More
+		functions will be added.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="text">
+		<Content>
+		To build an AI controlled ship,
+		you have to place down an AI module
+		on it.
+		
+		A structure can only have ONE AI Module,
+		so make sure it's protected well.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		You can change the settings of
+		the AI module by pressing
+		'$ACTIVATE' on it.
+		
+		A panel with all the options will appear.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		The best way to operate AI is
+		to be in a faction, as then the
+		AI knows exactly who your enemies are.
+		
+		They function without a faction too.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Depending on what you want to use it for,
+		set your AI to 'ship' or 'turret'. Turrets will
+		not use their thrusters.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Next, you can set their behaviour.
+		Aim at 'Any' means it will attack any enemy in range.
+		Aim at 'Selected Target' is only relevant for turrets
+		and means that those will attack the targeted entity, the 
+		pilot of the mother ship selects an entity with '$SELECT_LOOK_ENTITY'
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		To activate the AI, you have to tick off 'Activate'.
+		Re-entering that ship core will disable the AI!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		You can also do it from the comfort of your
+		ship by opening the structure panel.
+		Press $STRUCTURE_PANEL and select the 
+		docked entity you want to turn on or off.
+		
+		You can also turn on/off all docked entities at
+		once in the structure panel.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+	</StateH>
+	
+	<End type="text">
+		<Content>
+		This concludes the AI Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="3.93701" unitType="/10" minOgreVersion="1.8" ogreMaxVersion="2.4.7" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="1000"/>
+    </environment>
+    <nodes>
+        <node name="AccHelmet">
+            <position x="0" y="0.513222" z="2.99784e-007"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="AccHelmet" castShadows="true" receiveShadows="true" meshFile="AccHelmet.mesh">
+                <subentities>
+                    <subentity index="0" materialName="01-Helm"/>
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

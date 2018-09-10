@@ -1,0 +1,176 @@
+<Tutorial description="NPC-TUT-02">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		I'll further assist you over radio.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="getinstructureuid">
+		<Content>
+		I prepared a ship for you behind that door!
+		You can enter it with 'R'
+		</Content>
+		<blockPosA>8,8,8</blockPosA>
+		<structureuid>ENTITY_SHIP_tutorialShip00</structureuid>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="text">
+		<Content>
+		Great! You are now in build mode of the ship!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+	</StateB>	
+	<StateC type="text">
+		<Content>
+		There are two modes: 
+		- Build Mode, to efficiently build a ship
+		- Flight Mode, to fly your ship and fire weapons
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+	</StateC>	
+	<StateD type="activateFlightMode">
+		<Content>
+		Switch now to flight mode by pressing
+		the space bar.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+	</StateD>	
+	
+	<StateE type="text">
+		<Content>
+		Great, on the sides you now see your ship's status
+		bars.
+		
+		Also keep in mind that the bigger a ship is, the longer
+		it will take to turn.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateEA</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateE>	
+	
+	<StateEA type="text">
+		<Content>
+		Your ship HP depend on how many 'System' blocks
+		like power, weapons, or shields you have on your ship.
+		
+		When you lose those blocks, your HP will go down, which has 
+		several negative effects.
+		Your ship will start overheating at 50%. At that point you will
+		have to decide if you want to try to rescue your ship or flee.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateEB</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateEA>	
+	
+	<StateEB type="text">
+		<Content>
+		To reset your HP to 100% you will have to 'reboot' your systems.
+		This can be done by pressing '$REBOOT_SYSTEMS' in build mode. Rebooting takes
+		time depending on your lost HP and ship size, but can also be done
+		instantly on shops for credits.
+	
+		When overheating you cannot enter the ship again until rebooted.
+		At this point you will be promted to reboot if you try to enter
+		the core.
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateEA</Back>
+		<Satisfied>StateEC</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateEB>	
+	
+	<StateEC type="text">
+		<Content>
+		Armor follows the same principle as structure HP, with the
+		difference that different blocks provide it, and that you can
+		only reset it to 100% on shops for credits.
+		
+		Armor absorbs 50% of all damage as long as you have any armor left.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateEB</Back>
+		<Satisfied>StateF</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateEC>
+	
+	<StateF type="text">
+		<Content>
+		Press $FORWARD $BACKWARDS $STRAFE_LEFT $STRAFE_RIGHT  and $UP $DOWN to use your thrusters.
+		Use Left Shift to slow down.
+		
+		With the mouse wheel and number keys you can 
+		select your weapon or tool from the hot bar.
+		There are 10 hotbars for weapons. Hold control
+		and mouse wheel scroll through them, or press
+		contol + number key to switch directly. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		You can also rearrange them, or
+		assign new weapons to your hotbar
+		in the weapons menu by pressing '$WEAPON_PANEL'
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateJ</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateG>
+	
+	<StateJ type="text">
+		<Content>
+		Let's see if you can make
+		your way over to NPC-02 over on the 
+		other side of this area
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+		<Condition failTo="stateA" uid="ENTITY_SHIP_tutorialShip00">InShipUID</Condition>
+		<Condition failTo="stateD">inFlightMode</Condition>
+	</StateJ>
+	
+	<End type="talktonpc">
+		<Content>
+		Fly over to NPC-02
+		(Exit ship with '$ENTER_SHIP')
+		(Walk over if you exit the ship)
+		</Content>
+		<NPCName>NPC-02</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+	</End>	
+	
+
+</Tutorial>

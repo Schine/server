@@ -1,0 +1,222 @@
+<Tutorial description="NPC-TUT-04">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		So here we go!
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="getintolastspawnedship">
+		<Content>
+		Enter your ship again with '$ACTIVATE'.
+		</Content>
+		<blockPosA>8,8,8</blockPosA>
+		<structureuid>ENTITY_SHIP_tutorialShip00</structureuid>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateA>	
+	
+	<StateB type="activateBuildMode">
+		<Content>
+		Press '$CHANGE_SHIP_MODE' to enter build mode again.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+		<Condition failTo="stateA" >InLastSpawnedShip</Condition>
+	</StateB>	
+	
+	<StateC type="text">
+		<Content>
+		So, let's build this cannon!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateE</Satisfied>
+		<Condition failTo="stateA" >InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateC>	
+	
+	
+	<StateE type="placeblockonlastspawned">
+		<Content>
+		Place the cannon computer now.
+		(left click)
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateF</Satisfied>
+		<TypeA>6</TypeA>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateE>	
+	
+	<StateF type="text">
+		<Content>
+		Good work! You see that it now has an orange
+		pulsating border around it. That means it's
+		currently selected.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		Place some 'cannon barrel modules' now. You can place them
+		all next to each other for a single, high-damage
+		beam, or place them separate from one another to
+		shoot multiple projectiles at once.
+		</Content>
+		
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateJ</Satisfied>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateG>
+	
+	<StateJ type="placeblockonlastspawned">
+		<Content>
+		Now, place the cannon barrels on your ship.
+		(left click)
+		</Content>
+		<TypeA>16</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Count>6</Count>
+		<Satisfied>StateK</Satisfied>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		Great work. The only thing left is to assign
+		your new cannon in the weapon panel.
+		</Content>
+		<TypeA>16</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>StateL</Satisfied>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateK>
+	<StateL type="weaponpanelopen">
+		<Content>
+		Open your weapons panel with '$WEAPON_PANEL'
+		(only accessible in a ship)
+		</Content>
+		<TypeA>16</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateK</Back>
+		<Satisfied>StateM</Satisfied>
+		<Condition failTo="stateA">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateL>
+	<StateM type="text">
+		<Content>
+		This is the weapon panel!
+		You can assign controllers to your
+		hotbar here, as well as manage
+		advanced combined weapons.
+		</Content>
+		<TypeA>16</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateK</Back>
+		<Satisfied>StateN</Satisfied>
+		<Condition failTo="stateL">InLastSpawnedShip</Condition>
+		<Condition failTo="StateN">inBuildMode</Condition>
+		<Condition failTo="StateL">weaponpanelopen</Condition>
+	</StateM>
+	
+	<StateN type="text">
+		<Content>
+        When new weapons are added, you will open
+        this menu to assign weapons to each slot in
+        your hotbar.
+		</Content>
+		<TypeA>16</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateM</Back>
+		<Satisfied>StateO</Satisfied>
+		<Condition failTo="stateM">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+		<Condition failTo="StateL">weaponpanelopen</Condition>
+	</StateN>
+	
+	<StateO type="assignweaponslot">
+		<Content>
+		Drag the cannon computer on top
+		in the first (1) slot of your hotbar
+		at the bottom
+		</Content>
+		<TypeA>6</TypeA>
+		<Slot>1</Slot>
+		<Duration>3000</Duration>
+		<Back>StateN</Back>
+		<Satisfied>StateP</Satisfied>
+		<Condition failTo="stateM">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+		<Condition failTo="StateL">weaponpanelopen</Condition>
+	</StateO>
+	
+	<StateP type="weaponpanelclosed">
+		<Content>
+		Awesome! You can now close the weapon
+		panel. (Press '$WEAPON_PANEL' or click on the X)
+		</Content>
+		<TypeA>6</TypeA>
+		<Slot>1</Slot>
+		<Duration>3000</Duration>
+		<Back>StateO</Back>
+		<Satisfied>StateQ</Satisfied>
+		<Condition failTo="stateM">InLastSpawnedShip</Condition>
+		<Condition failTo="StateB">inBuildMode</Condition>
+	</StateP>
+	<StateQ type="activateFlightMode">
+		<Content>
+		Almost done. Now switch
+		into flight mode with 'Space'
+		if you aren't already.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateP</Back>
+		<Satisfied>StateR</Satisfied>
+		<Condition failTo="stateM">InLastSpawnedShip</Condition>
+	</StateQ>
+	
+	<StateR type="text">
+		<Content>
+		You're done! You can now select
+		your weapon by pressing '1'
+		or select it with the mouse wheel
+		if it isn't selected already
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateQ</Back>
+		<Satisfied>End</Satisfied>
+		<Condition failTo="stateM">InLastSpawnedShip</Condition>
+		<Condition failTo="StateQ">inFlightMode</Condition>
+	</StateR>
+	
+	<End type="talktonpc">
+		<Content>
+		Well done! Try out your weapon
+		for a bit and then go over to
+		NPC-03 for the advanced class!
+		(Exit ship with '$ACTIVATE')
+		</Content>
+		<NPCName>NPC-03</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+	</End>	
+	
+
+</Tutorial>

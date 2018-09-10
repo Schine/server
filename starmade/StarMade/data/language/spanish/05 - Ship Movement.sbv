@@ -1,0 +1,27 @@
+00:00:01.920,00:00:05.600
+Mientras está en modo vuelo de una nave, gire moviendo el ratón.
+
+00:00:06.000,00:00:10.000
+Movimiento horizontal es logrado con el Adelante ($FORWARD_SHIP),
+Atras ($BACKWARDS_SHIP), para moverse en lugar a la izquierda ($STRAFE_LEFT_SHIP)...
+
+00:00:10.080,00:00:11.800
+y moverse en lugar a la derecha ($STRAFE_RIGHT_SHIP) keys.
+
+00:00:12.080,00:00:15.800
+Movimiento vertical es logrado con las teclas Ascender ($UP_SHIP) y Descender ($DOWN_SHIP).
+
+00:00:16.200,00:00:20.600
+La nave puede ser girada usando las teclas Rotar Izquierda ($ROTATE_LEFT_SHIP)
+y Rotar Izquierda ($ROTATE_RIGHT_SHIP).
+
+00:00:20.800,00:00:25.600
+Manteniendo la tecla Rotar Nave ($ROLL) presionada y moviendo el raton izquierda y derecha tambien rotaran la nave.
+
+00:00:26.200,00:00:33.800
+Use la tecla Freno ($BRAKE) para frenar y detener una nave que se esta moviendo, y
+detener la rotacion de la nave con Cancelar Rotacion Nave ($CANCEL_SHIP).
+
+00:00:34.200,00:00:39.000
+Naves pueden ser alineadas a Norte Galactico apretando la tecla Alinear Camara Nave ($ALIGN_SHIP).
+

@@ -1,0 +1,110 @@
+<Tutorial description="NPC-TUT-05">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		Let's build a combination weapon!
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		Those two computers
+		in that other room
+		are just a cannon and a missile.
+		Nothing special!
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="connectblocks">
+		<Content>
+		See, what happens if you 'slave'
+		the missile to the
+		cannon.
+		</Content>
+		<blockPosA>60,9,-48</blockPosA>
+		<blockPosB>60,9,-40</blockPosB>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>	
+	
+	<StateC type="waitingtext">
+		<Content>
+		Check it out! The cannon is now a
+		shotgun!
+		Oh and I forgot something important...
+		</Content>
+		<Duration>6000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateC>	
+	
+	
+	<StateE type="text">
+		<Content>
+		The effect is based on the ratio
+		of the two weapons.
+		Since the ratio of these two weapons
+		are 1 to 1, the resultant effect is
+		100%.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>	
+	
+	<StateF type="text">
+		<Content>
+		But if you had 1 missile module
+		connected to 100 cannon modules,
+		the resultant shotgun effect would
+		only be 1%.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	<StateG type="text">
+		<Content>
+		A combined weapon will always have the
+		same damage per second as the two weapons
+		separately, so there is no downside to
+		combining weapon systems.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	<StateH type="text">
+		<Content>
+		By changing the ratio, you can
+		customize each weapon system to your
+		liking.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+	</StateH>
+	
+	
+	
+	<End type="talktonpc">
+		<Content>
+		Now lets go to the last stage
+		of the tutorial:
+		Meet NPC-04 for information about
+		crafting and personal weapons 
+		</Content>
+		<NPCName>NPC-04</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+	</End>	
+	
+
+</Tutorial>

@@ -1,0 +1,24 @@
+00:00:01.920,00:00:05.600
+W trybie lotu statku, skręcaj przy użyciu myszki.
+
+00:00:06.000,00:00:10.000
+Ruch poziomy odbywa się za pomocą przycisków Do przodu ($FORWARD_SHIP), Do tyłu ($BACKWARDS_SHIP), Odbicie w lewo ($STRAFE_LEFT_SHIP)...
+
+00:00:10.080,00:00:11.800
+i przycisk odbij w prawo ($STRAFE_RIGHT_SHIP).
+
+00:00:12.080,00:00:15.800
+Ruch pionowy uzyskuje się za pomocą przycisków Wleć ($UP_SHIP) i Opadaj ($DOWN_SHIP).
+
+00:00:16.200,00:00:20.600
+Statkiem można obracać za pomocą klawiszy obracania w lewo ($ROTATE_LEFT_SHIP) i prawo ($ROTATE_RIGHT_SHIP).
+
+00:00:20.800,00:00:25.600
+Przytrzymanie klawisza tocz statek ($ROLL) i przesunięcie myszy w lewo i w prawo będzie także toczyć statek.
+
+00:00:26.200,00:00:33.800
+Użyj klawisza hamulca ($BRAKE) aby spowolnić lub zatrzymać statek. Aby anulować obracanie statku naciśnij klawisz zatrzymywania rotacji statku($CANCEL_SHIP).
+
+00:00:34.200,00:00:39.000
+Statek może być wyrównany do galaktycznej Północy naciskając przycisk Wyrównaj kamerę statku ($ALIGN_SHIP).
+

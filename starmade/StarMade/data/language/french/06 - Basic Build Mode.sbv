@@ -1,0 +1,27 @@
+00:00:01.400,00:00:04.800
+Le mode construction fournit des outils supplémentaires à la construction de créations.
+
+00:00:05.400,00:00:10.400
+Dans un vaisseau, appuyez sur la touche Changer le mode du vaisseau ($CHANGE_SHIP_MODE) pour basculer entre les modes vol et construction.
+
+00:00:11.000,00:00:16.000
+Sur une station, une planète ou un astéroïde, un bloc de construction est nécessaire pour accéder au mode construction.
+
+00:00:16.480,00:00:20.800
+Utilisez la touche Activer ($ACTIVATE) sur un bloc de construction pour accéder au mode construction sur ces entités.
+
+00:00:21.600,00:00:25.080
+Un menu supplémentaire est accessible pour les options de construction avancées.
+
+00:00:25.200,00:00:28.600
+Maintenez la touche de Mode construction avancé ($BUILD_MODE_FIX_CAM) pour accéder à ce menu.
+
+00:00:29.000,00:00:36.400
+Le Mode construction avancé permet de changer la taille de la zone de construction grâce à des curseurs, ou l'orientation d'un bloc en maintenant...
+
+00:00:36.440,00:00:39.600
+la touche Mode construction avancé ($BUILD_MODE_FIX_CAM) et en utilisant la roulette de la souris.
+
+00:00:40.080,00:00:44.240
+Il existe bien d'autres fonctionnalités dans le mode de construction avancé qui seront traitées séparément.
+

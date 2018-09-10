@@ -1,0 +1,24 @@
+00:00:00.880,00:00:02.600
+Utilisez la souris pour regarder aux alentours.
+
+00:00:02.640,00:00:06.560
+Les mouvements de base s'effectuent avec les touches Avancer ($FORWARD), Reculer ($BACKWARDS), Déplacement à gauche ($STRAFE_LEFT)...
+
+00:00:06.600,00:00:08.200
+et Déplacement à droite ($STRAFE_RIGHT).
+
+00:00:08.400,00:00:13.800
+Pour les astronautes en apesanteur, utilisez les touches Déplacement vers le haut ($UP) et Déplacement vers le bas ($DOWN) pour monter et descendre.
+
+00:00:14.400,00:00:18.400
+En apesanteur, vous pouvez vous aligner sur une structure en appuyant sur la touche Grappin ($GRAPPLING_HOOK).
+
+00:00:19.000,00:00:23.000
+Pour les astronautes en pesanteur, utilisez la touche Saut ($JUMP) pour effectuer un mouvement vertical.
+
+00:00:23.400,00:00:27.600
+En pesanteur, vous pouvez vous déplacer plus lentement en utilisant la touche Marcher ($WALK).
+
+00:00:27.800,00:00:30.680
+Vous pouvez vous asseoir sur la plupart des blocs en utilisant la touche S'asseoir ($SIT).
+

@@ -1,0 +1,27 @@
+<skeleton blendmode="average">
+    <bones>
+        <bone id="0" name="RootFabricator">
+            <position x="1.18971e-005" y="0.0125495" z="0.000344619"/>
+            <rotation angle="0">
+                <axis x="0" y="4.37114e-008" z="1"/>
+            </rotation>
+        </bone>
+        <bone id="1" name="RootFabTipL">
+            <position x="0.0624881" y="0.0909505" z="0.129655"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+        <bone id="2" name="RootFabTipR">
+            <position x="-0.0625119" y="0.0909505" z="0.129655"/>
+            <rotation angle="0">
+                <axis x="1" y="0" z="0"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="RootFabTipL" parent="RootFabricator"/>
+        <boneparent bone="RootFabTipR" parent="RootFabricator"/>
+    </bonehierarchy>
+    <animations/>
+</skeleton>

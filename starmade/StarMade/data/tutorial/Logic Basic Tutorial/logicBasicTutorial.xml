@@ -1,0 +1,95 @@
+<Tutorial description="A basic tutorial about the logic system">
+	<Start type="text">
+		<Content>
+		Welcome to the Basic Logic Tutorial.		
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		StarMade has a fully integrated, Turing complete logic system.
+		This means you could build a fully functional CPU
+		within StarMade.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		The system works by connecting
+		blocks with each other to create
+		basic circuits similar to electronic ones.
+		These circuits are called 'logic gates'.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		The most important block in the logic system
+		is the 'Activation Block'. This block can be
+		turned on and off by pressing $ACTIVATE on it.
+		
+		It can also share this on/off signal to all the blocks 
+		that are connected with it. 		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateC1</Satisfied>
+	</StateC>
+	
+	<StateC1 type="text">
+		<Content>
+		To connect a block, press $SELECT_MODULE on one activation
+		block to select it, and $CONNECT_MODULE on the block you want to
+		connect it to.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC1>
+	
+	<StateD type="text">
+		<Content>
+		When you place an activation block,
+		and connect it to another activation block,
+		both blocks will be activated if you press $ACTIVATE
+		on the first one.
+		Activation blocks can also be linked to doors, lights,
+		weapon computers, and anything else that can be
+		activated in Starmade. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		They can also be linked to gravity modules,
+		although the activation block needs to be directly linked 
+		to the gravity module at this moment. 		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>End</Satisfied>
+	</StateE>
+	
+	<End type="text">
+		<Content>
+		This concludes the Basic Logic Tutorial.
+		Thanks for reading, 
+		and thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

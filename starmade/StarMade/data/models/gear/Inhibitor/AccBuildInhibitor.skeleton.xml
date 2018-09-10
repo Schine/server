@@ -1,0 +1,12 @@
+<skeleton blendmode="average">
+    <bones>
+        <bone id="0" name="RootAcc">
+            <position x="-0.0374153" y="-1.19209e-008" z="-5.37903e-009"/>
+            <rotation angle="1.5708">
+                <axis x="-1" y="-1.33266e-007" z="-1.35958e-007"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy/>
+    <animations/>
+</skeleton>

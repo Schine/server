@@ -1,0 +1,31 @@
+00:00:01.080,00:00:06.800
+O HUD fornece informações essenciais para navegar no espaço e interagir com objetos.
+
+00:00:07.020,00:00:13.800
+A barra de atalhos está na parte inferior do HUD
+e permite acesso a vários objetos que podem ser colocados ou ativados.
+
+00:00:14.000,00:00:19.600
+O item ativo na barra de atalhos pode ser alterado
+utilizando-se qualquer tecla numérica ou a roda do mouse.
+
+00:00:20.000,00:00:27.000
+A saúde é exibida acima da barra de atalhos. Ao acabar você renascerá no último Desmortalizador ativado.
+
+00:00:27.400,00:00:31.520
+O radar, que mostra entidades próximas,
+bem como o setor atualmente ocupado…
+
+00:00:31.560,00:00:35.060
+está localizado no canto superior direito do HUD,
+juntamente com vários outros indicadores.
+
+00:00:36.400,00:00:39.400
+O primeiro indicador acenderá quando estiver próximo de uma loja.
+
+00:00:39.440,00:00:43.600
+O segundo indicador acende quando há correspondência não lida na caixa de correio.
+
+00:00:43.800,00:00:47.960
+O terceiro indicador acenderá quando uma oferta de troca for recebida.
+

@@ -1,0 +1,81 @@
+$STRAFE_LEFT                                         -> Strafe Left; Context: FREE_IN_SPACE
+$STRAFE_RIGHT                                        -> Strafe right; Context: FREE_IN_SPACE
+$FORWARD                                             -> Forward; Context: FREE_IN_SPACE
+$BACKWARDS                                           -> Backwards; Context: FREE_IN_SPACE
+$UP                                                  -> Strafe Up; Context: FREE_IN_SPACE
+$DOWN                                                -> Strafe Down; Context: FREE_IN_SPACE
+$STRAFE_LEFT_SHIP                                    -> Strafe Left; Context: SHIP_FLIGHT_MODE
+$STRAFE_RIGHT_SHIP                                   -> Strafe right; Context: SHIP_FLIGHT_MODE
+$FORWARD_SHIP                                        -> Forward; Context: SHIP_FLIGHT_MODE
+$BACKWARDS_SHIP                                      -> Backwards; Context: SHIP_FLIGHT_MODE
+$UP_SHIP                                             -> Strafe Up; Context: SHIP_FLIGHT_MODE
+$DOWN_SHIP                                           -> Strafe Down; Context: SHIP_FLIGHT_MODE
+$ROTATE_LEFT_SHIP                                    -> Rotate Left; Context: SHIP_FLIGHT_MODE
+$ROTATE_RIGHT_SHIP                                   -> Rotate Right; Context: SHIP_FLIGHT_MODE
+$SERVER_INFO                                         -> Server Info / Player List; Context: GENERAL
+$DROP_ITEM                                           -> Drop Item; Context: GENERAL
+$RECORD_GIF                                          -> Record GIF animation; Context: GENERAL
+$NETWORK_STATS_PANEL                                 -> Open network stat panel; Context: GENERAL
+$LAG_STATS_PANEL                                     -> Open network stat panel; Context: GENERAL
+$OBJECT_VIEW_CAM                                     -> Auto-rotation camera; Context: GENERAL
+$SCROLL_MOUSE_ZOOM                                   -> Wheel scroll zoom; Context: GENERAL
+$SCROLL_BOTTOM_BAR                                   -> Wheel/Number weapon bar switch; Context: SHIP_FLIGHT_MODE
+$BRAKE                                               -> Brake; Context: SHIP_FLIGHT_MODE
+$ROLL                                                -> Roll Ship; Context: SHIP_FLIGHT_MODE
+$CHANGE_SHIP_MODE                                    -> Change Ship Mode; Context: SHIP_GENERAL
+$JUMP                                                -> Jump; Context: CHARACTER_IN_GRAVITY
+$GRAPPLING_HOOK                                      -> Grapple (Align to ship); Context: FREE_IN_SPACE
+$WALK                                                -> Walk; Context: FREE_IN_SPACE
+$JUMP_TO_MODULE                                      -> Jump to module; Context: SHIP_BUILD_MODE
+$REBOOT_SYSTEMS                                      -> Reboot Systems; Context: SHIP_GENERAL
+$FREE_CAM                                            -> Free Camera; Context: GENERAL
+$ENTER_SHIP                                          -> Exit Ship; Context: SHIP_GENERAL
+$ACTIVATE                                            -> Activate Module; Context: FREE_IN_SPACE
+$TUTORIAL                                            -> Tutorial Screen; Context: GENERAL
+$CREW_CONTROL                                        -> Crew Control; Context: FREE_IN_SPACE
+$STUCK_PROTECT                                       -> Activate Stuck Protect; Context: FREE_IN_SPACE
+$SIT                                                 -> Sit; Context: FREE_IN_SPACE
+$SPAWN_SHIP                                          -> Spawn Ship; Context: FREE_IN_SPACE
+$SPAWN_SPACE_STATION                                 -> Spawn Space Station; Context: FREE_IN_SPACE
+$SELECT_MODULE                                       -> Select Module; Context: SHIP_BUILD_MODE
+$CONNECT_MODULE                                      -> Connect Module; Context: SHIP_BUILD_MODE
+$ASTRONAUT_ROTATE_BLOCK                              -> Block Rotate; Context: FREE_IN_SPACE
+$HELP_SCREEN                                         -> Display/Hide Help Screen; Context: GENERAL
+$SWITCH_COCKPIT_SHIP_NEXT                            -> Next Docking Ship; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_SHIP_PREVIOUS                        -> Previous Docking Ship; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_SHIP_HOLD_FOR_CHAIN                  -> Plus up/down to switch chain; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_NEXT                                 -> Next Cockpit; Context: SHIP_FLIGHT_MODE
+$SWITCH_COCKPIT_PREVIOUS                             -> Previous Cockpit; Context: SHIP_FLIGHT_MODE
+$CHAT                                                -> Chat; Context: GENERAL
+$SHOP_PANEL                                          -> Shop Menu; Context: GENERAL
+$INVENTORY_SWITCH_ITEM                               -> Fast switch inventory; Context: GENERAL
+$INVENTORY_PANEL                                     -> Inventory Menu; Context: GENERAL
+$WEAPON_PANEL                                        -> Weapon Menu; Context: GENERAL
+$NAVIGATION_PANEL                                    -> Navigation Menu; Context: GENERAL
+$AI_CONFIG_PANEL                                     -> AI Config Menu; Context: GENERAL
+$CATALOG_PANEL                                       -> Catalog Panel; Context: GENERAL
+$SELECT_ENTITY_NEXT                                  -> Select Next Entity; Context: GENERAL
+$SELECT_ENTITY_PREV                                  -> Select Previous Entity; Context: GENERAL
+$SELECT_NEAREST_ENTITY                               -> Select Nearest Entity; Context: GENERAL
+$SELECT_LOOK_ENTITY                                  -> Select Targeted Entity; Context: GENERAL
+$ZOOM_MINIMAP                                        -> Zoom Minimap; Context: GENERAL
+$RELEASE_MOUSE                                       -> Release Mouse; Context: GENERAL
+$NEXT_CONTROLLER                                     -> Select next controller; Context: SHIP_BUILD_MODE
+$PREVIOUS_CONTROLLER                                 -> Select prev controller; Context: SHIP_BUILD_MODE
+$SELECT_CORE                                         -> Select core; Context: SHIP_BUILD_MODE
+$BUILD_MODE_FIX_CAM                                  -> Advanced Build Mode; Context: SHIP_BUILD_MODE
+$ALIGN_SHIP                                          -> Align Ship Cam; Context: SHIP_FLIGHT_MODE
+$CANCEL_SHIP                                         -> Cancel Ship Movement; Context: SHIP_FLIGHT_MODE
+$SCREENSHOT_WITH_GUI                                 -> Screenshot (with GUI); Context: GENERAL
+$SCREENSHOT_WITHOUT_GUI                              -> Screenshot (without GUI); Context: GENERAL
+$FACTION_MENU                                        -> Open Faction Menu; Context: GENERAL
+$MAP_PANEL                                           -> Map; Context: GENERAL
+$STRUCTURE_PANEL                                     -> Structure Menu; Context: GENERAL
+$LEADERBOARD_PANEL                                   -> Show leaderboard; Context: GENERAL
+$FLEET_PANEL                                         -> Show Fleet Panel; Context: GENERAL
+$BUILD_MODE_FAST_MOVEMENT                            -> Hold for faster Build Mode Move; Context: SHIP_BUILD_MODE
+$KEY_BULK_CONNECTION_MOD                             -> Hold for bulk connect; Context: SHIP_BUILD_MODE
+$COPY_AREA_NEXT                                      -> Copy Area Next Rot; Context: SHIP_BUILD_MODE
+$COPY_AREA_PRIOR                                     -> Copy Area Prior Rot; Context: SHIP_BUILD_MODE
+$COPY_AREA_X_AXIS                                    -> Copy Area X Rot (use next); Context: SHIP_BUILD_MODE
+$COPY_AREA_Z_AXIS                                    -> Copy Area Z Rot (use next); Context: SHIP_BUILD_MODE

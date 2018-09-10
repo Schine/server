@@ -1,0 +1,5 @@
+<Meta>
+<Keybinds>前進: $FORWARD, 後退: $BACKWARDS, 左移: $STRAFE_LEFT, 右移: $STRAFE_RIGHT, 
+上移: $UP, 下移: $DOWN, 抓鉤: $GRAPPLING_HOOK, 跳躍: $JUMP, 漫步: $WALK, 坐下: $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>

@@ -1,0 +1,94 @@
+<Tutorial description="This a tutorial about the catalog">
+	<Start type="text">
+		<Content>Welcome to the Catalog Tutorial</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		The catalog keeps track of ship blueprints. 
+		When saving a blueprint in singleplayer they will appear
+		in your StarMade/blueprints folder. 
+		When you save them on a server they will appear 
+		in the server owner's folder.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateAWaiting</Satisfied>
+	</StateA>
+	
+	<StateAWaiting type="waitingtext">
+		<Content>
+		You can access the catalog menu
+		by pressing '$INVENTORY_PANEL',
+		and then clicking on the catalog tab.
+		</Content>
+		<Duration>15000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateAWaiting>
+	
+	<StateB type="text">
+		<Content>
+		If you click on 'Create new entry' the game will save
+		your current entered ship into the catalog. 
+		
+		As admin or during singleplayer you	can 
+		also use the command '/save nameofship' in chat
+		to save ships and even stations (stations will not
+		be listed but can be loaded with the '/load' command)
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateAWaiting</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		'Save in local catalog' is only relevant
+		in multiplayer, it will not save the ship
+		in the server's catalog but in your local
+		singleplayer catalog.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		You can also upload your local blueprints to the server 
+		so you can buy them on it.
+
+		You and the server admins will have access to it,
+		so be sure you are OK with that.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Catalog entries have permissions
+		that determine who can spawn them: others(everyone)/faction/homebase.
+		There is a fourth option 'enemy usable' for admins or in singleplayer to
+		make a ship spawnable for pirates and the trading guild.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>End</Satisfied>
+	</StateE>
+	
+	<End type="text">
+		<Content>
+		This concludes the Catalog tutorial.
+		Thanks for reading, 
+		and thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

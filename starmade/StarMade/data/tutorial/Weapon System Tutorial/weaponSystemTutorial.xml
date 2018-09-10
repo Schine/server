@@ -1,0 +1,203 @@
+<Tutorial description="How to use weapons">
+	<Start type="text">
+		<Content>
+		Welcome to the Weapon System Tutorial.
+		This tutorial explains how to use and customize
+		your weapons.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		StarMade has four main weapon types at this point.
+		Antimatter Cannons, Missiles, Damage Pulse 
+		and Damage Beam. Each weapon is useful on its own 
+		but in most situations a specific weapon
+		will be the most effective.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		StarMade uses a combination system for this.
+		You can link two main computers together to
+		change how the weapon behaves.
+		
+		Each weapon has a secondary effect, that will
+		be applied to the weapon it is linked to.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		Secondary effects:
+			Cannons: Makes the weapon reload faster (machine-gun).
+			Missile: Splits up the weapon into smaller parts (shotgun).
+			Pulse: Increases the weapon damage (High calibre).
+			Beam: Makes the weapon range greater and and the 
+				  projectile faster (sniper).
+		</Content>
+		<Duration>3000</Duration>
+		<Image>combinationtable</Image>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		As mentioned before, you have to connect
+		two weapon computers together to combine them.
+		
+		Both weapon computers have to have
+		weapon modules connected to them.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		The ratio of connected blocks on each of
+		the connected systems determines how much
+		of the secondary effect the main weapon will
+		receive. 
+		The damage however will be determined by the total block 
+		count from all weapon blocks.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Example, a weapon that uses 50 blocks in 
+		combination with another weapon that uses 50
+		blocks has the same damage per second as a single weapon 
+		with 100 blocks.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		Try this now. Place down a weapon computer
+		and connect 5 weapon modules to it.
+		
+		Next, place another weapon computer down
+		and connect 5 weapon modules to that.	
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		Now press $SELECT_MODULE on the weapon
+		computer you want to use as your main weapon.
+		
+		Finally press $CONNECT_MODULE on the second weapon computer. 
+		The coloured boxes around the computers will now 
+		indicate its connection.	
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateI</Satisfied>
+	</StateH>
+	
+	<StateI type="text">
+		<Content>
+		You can also do the same with the 'drag and drop' feature 
+		in the weapon menu (open with $WEAPON_PANEL). Just pick
+		a weapon and drag it into the slave slot of another.
+		
+		You can also unlink by selecting a slave and dropping 
+		it in the unlink box.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateI1</Satisfied>
+	</StateI>
+	
+	<StateI1 type="text">
+		<Content>
+		Your cannon will now fire 15 times faster 
+		but each shot will do less damage.
+		The total DPS will be the same as one cannon computer
+		with 10 cannon modules linked to it.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI1>
+	
+	<StateJ type="text">
+		<Content>
+		If you connect 7 blocks to the main computer and 
+		3 to the secondary,	you will only get around half 
+		of the reload buff but each shot will do more damage. 
+		
+		The DPS remains unchanged.		
+		This way you can fully customize your weapon.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateK</Satisfied>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		Keep in mind that the weapon computer can only be used in
+		ONE combination at a time, so choose wisely what you want.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>StateL</Satisfied>
+	</StateK>
+	
+	<StateL type="text">
+		<Content>
+		You can also add effect blocks to a weapon computer,
+		which will change the type of damage you are doing.
+		
+		This will be covered in the 'Effects Tutorial'.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateK</Back>
+		<Satisfied>StateM</Satisfied>
+	</StateL>
+	
+	<StateM type="text">
+		<Content>
+		Additionally you can link light sources to your weapon,
+		to change the colour of that weapon's projectile.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateL</Back>
+		<Satisfied>End</Satisfied>
+	</StateM>
+	
+	<End type="text">
+		<Content>
+		This concludes the Weapon System Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

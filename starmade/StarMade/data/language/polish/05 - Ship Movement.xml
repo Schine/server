@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>Do przodu: $FORWARD_SHIP, Do tyłu: $BACKWARDS_SHIP, Odbij w lewo: $STRAFE_LEFT_SHIP, Odbij w prawo: $STRAFE_RIGHT_SHIP, Wzleć: $UP_SHIP, Opadaj: $DOWN_SHIP, Obrót w lewo: $ROTATE_LEFT_SHIP, Obrót w prawo: $ROTATE_RIGHT_SHIP, Obracanie statku: $ROLL, Hamowanie: $BRAKE, Anuluj obrót statku: $CANCEL_SHIP, Wyrównaj położenie kamery statku: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

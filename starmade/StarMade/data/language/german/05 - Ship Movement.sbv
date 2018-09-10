@@ -1,0 +1,24 @@
+00:00:01.920,00:00:05.600
+Um dein Schiff zu navigieren, benutze die "Maus" während du dich im Flugmodus befindest.
+
+00:00:06.000,00:00:10.000
+Horizontale Bewegungen werden mit den Vorwärts- ($FORWARD_SHIP), Rückwärts- ($BACKWARDS_SHIP), Link- ($STRAFE_LEFT_SHIP)...
+
+00:00:10.080,00:00:11.800
+und Rechtstasten ($STRAFE_RIGHT_SHIP) durchgeführt.
+
+00:00:12.080,00:00:15.800
+Vertikale Bewegungen werden mit der Hoch- ($UP_SHIP) und Runtertaste ($DOWN_SHIP) durchgeführt.
+
+00:00:16.200,00:00:20.600
+Das Schiff kann mit den Rotieren-Links- ($ROTATE_LEFT_SHIP) und Rotieren-Rechts-Taste ($ROTATE_RIGHT_SHIP) rotieren.
+
+00:00:20.800,00:00:25.600
+Halte die Schiffrollen-Taste ($ROLL) gedrückt um dein Schiff mit der Maus zu Rollen.
+
+00:00:26.200,00:00:33.800
+Benutze die Bremsentaste ($BRAKE) zum verlangsamen/stoppen eines Schiffes sowie die Rotation-Abbrechen-Taste ($CANCEL_SHIP) zum stoppen der Rotation.
+
+00:00:34.200,00:00:39.000
+Das Schiff kann auf den galaktischen Norden beim drücken der Schiffskamera-Ausrichten-Taste ($ALIGN_SHIP) ausgerichtet werden.
+

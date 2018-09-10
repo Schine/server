@@ -1,0 +1,116 @@
+<ControlHelpers>
+	<General valueSpacing = "95" rows = "7" columnDist = "150" width = "440" height = "105">
+		
+		<SelectEntity>$SELECT_LOOK_ENTITY</SelectEntity>
+		<Chat>$CHAT</Chat>
+		<Log>F1</Log>
+		<Mail>F4</Mail>
+		<Inventory>$INVENTORY_PANEL</Inventory>
+		<FactionPanel>$FACTION_MENU</FactionPanel>
+		<Navigation>$NAVIGATION_PANEL</Navigation>
+		<GalaxyMap>$MAP_PANEL</GalaxyMap>
+		<DropItem>$DROP_ITEM</DropItem>
+		<OrbitCam>$OBJECT_VIEW_CAM</OrbitCam>
+		<FreeCam>Hold right shift (3rd person)</FreeCam>
+		<FreeCamStick>double tab right shift (ship only)</FreeCamStick>
+		<SelectSlot>Mouse Wheel or Number Key</SelectSlot>
+		<ThirdPerson>Left Shift + Mouse Wheel</ThirdPerson>
+	</General>
+	
+	<Inventory valueSpacing = "85" rows = "7" columnDist = "150" width = "450" height = "105">
+		<Split>Right Click</Split>
+		<FastSwitch>Rigth Shift + Left Click</FastSwitch>
+		<FastSell>Drag from hotbar in appearing sell area when near a shop</FastSell>
+	</Inventory>
+	
+	<Shop valueSpacing = "85" rows = "7" columnDist = "150" width = "250" height = "105">
+		<FastSell>Drag from hotbar anywhere in shop panel</FastSell>
+	</Shop>
+
+	<AstronautModeGravity valueSpacing = "95" rows = "7" columnDist = "150" width = "450" height = "105">
+		<Forwards>$FORWARD</Forwards>
+		<Backwards>$BACKWARDS</Backwards>
+		<StrafeLeft>$STRAFE_LEFT</StrafeLeft>
+		<StrafeRigth>$STRAFE_RIGHT</StrafeRigth>
+		<WalkSlow>$WALK</WalkSlow>
+		<Jump>$JUMP</Jump>
+		
+		<Sit>$SIT</Sit>
+		<UseItem>Left Click when item selected</UseItem>
+		<PlaceBlock>Left Click</PlaceBlock>
+		<SalvageBlock>Right Click</SalvageBlock>
+		<EnterShip>$ENTER_SHIP</EnterShip>
+		<ActivateBlock>$ACTIVATE</ActivateBlock>
+		<SpawnShip>$SPAWN_SHIP</SpawnShip>
+		<SpawnStation>$SPAWN_SPACE_STATION</SpawnStation>
+		
+	</AstronautModeGravity>
+	
+	<AstronautModeZeroG valueSpacing = "95" rows = "8" columnDist = "150" width = "450" height = "120">
+		<Forwards>$FORWARD</Forwards>
+		<Backwards>$BACKWARDS</Backwards>
+		<StrafeLeft>$STRAFE_LEFT</StrafeLeft>
+		<StrafeRigth>$STRAFE_RIGHT</StrafeRigth>
+		<Up>$UP</Up>
+		<Down>$DOWN</Down>		
+		
+		<Align>$GRAPPLING_HOOK</Align>
+		<Sit>$SIT</Sit>
+		<UseItem>Left Click when item selected</UseItem>
+		<PlaceBlock>Left Click</PlaceBlock>
+		<SalvageBlock>Right Click</SalvageBlock>
+		<EnterShip>$ENTER_SHIP</EnterShip>
+		<ActivateBlock>$ACTIVATE</ActivateBlock>
+		<SpawnShip>$SPAWN_SHIP</SpawnShip>
+		<SpawnStation>$SPAWN_SPACE_STATION</SpawnStation>
+	</AstronautModeZeroG>
+	
+	<ShipFlightMode valueSpacing = "180" rows = "10" columnDist = "250" width = "700" height = "150">
+		<Stop>$BRAKE</Stop>
+		<ResetOrientation>C</ResetOrientation>
+		
+		<Forwards>$FORWARD_SHIP</Forwards>
+		<Backwards>$BACKWARDS_SHIP</Backwards>
+		<StrafeLeft>$STRAFE_LEFT_SHIP</StrafeLeft>
+		<StrafeRigth>$STRAFE_RIGHT_SHIP</StrafeRigth>
+		<Up>$UP_SHIP</Up>
+		<Down>$DOWN_SHIP</Down>
+		<RotateLeft>$ROTATE_LEFT_SHIP</RotateLeft>
+		<RotateRight>$ROTATE_RIGHT_SHIP</RotateRight>
+		<Rotate>Hold $ROLL and move mouse left/right</Rotate>
+		<FireHotbarWeapon>left click</FireHotbarWeapon>
+		<FireHotbarWeaponUnfocused>right click</FireHotbarWeaponUnfocused>
+		<WeaponAssignmentPanel>$WEAPON_PANEL</WeaponAssignmentPanel>
+		<ExitShip>$ENTER_SHIP</ExitShip>
+		<SwitchToBuildMode>$CHANGE_SHIP_MODE</SwitchToBuildMode>
+		<PreviousCockpit>$SWITCH_COCKPIT_PREVIOUS</PreviousCockpit>
+		<NextCockpit>$SWITCH_COCKPIT_NEXT</NextCockpit>
+		<CancelAction>$CANCEL_SHIP</CancelAction>
+		
+	</ShipFlightMode>
+	
+	<BuildMode valueSpacing = "180" rows = "8" columnDist = "290" width = "600" height = "120">
+		<PlaceBlock>Left Click</PlaceBlock>
+		<TakeBlock>Right Click</TakeBlock>
+		<SelectBlock>$SELECT_MODULE </SelectBlock>
+		<ConnectToSelectedBlock>$CONNECT_MODULE</ConnectToSelectedBlock>
+		<ConnectGroup>Right Shift + $CONNECT_MODULE</ConnectGroup>
+		<FastMove>Rigth Shift</FastMove>
+		
+		<AdvancedBuildMode>$BUILD_MODE_FIX_CAM</AdvancedBuildMode>	
+		
+		<Forwards>$FORWARD</Forwards>
+		<Backwards>$BACKWARDS</Backwards>
+		<StrafeLeft>$STRAFE_LEFT</StrafeLeft>
+		<StrafeRigth>$STRAFE_RIGHT</StrafeRigth>
+		<Up>$UP</Up>
+		<Down>$DOWN</Down>	
+		
+		<SwitchToFlightMode>$CHANGE_SHIP_MODE</SwitchToFlightMode>
+		<ExitStructure>$ENTER_SHIP</ExitStructure>
+		
+	</BuildMode>
+	
+	
+
+</ControlHelpers>

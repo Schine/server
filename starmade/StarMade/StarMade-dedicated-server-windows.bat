@@ -1,0 +1,1 @@
+java -Xms512m -Xmx1024m -Xincgc -Xshare:off -jar StarMade.jar -server

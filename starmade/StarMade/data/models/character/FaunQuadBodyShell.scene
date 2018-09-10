@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="3.93701" unitType="/10" minOgreVersion="1.8" ogreMaxVersion="2.4.7" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="1000"/>
+    </environment>
+    <nodes>
+        <node name="FaunQBodyTorso">
+            <position x="-8.50959e-008" y="-0.0117046" z="0.0173597"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="FaunQBodyTorso" castShadows="true" receiveShadows="true" meshFile="FaunQBodyTorso.mesh">
+                <subentities>
+                    <subentity index="0" materialName="01-Default"/>
+                </subentities>
+            </entity>
+            <node name="TorsoTail">
+                <position x="2.81814e-009" y="0.0234092" z="-0.418364"/>
+                <scale x="1.14513" y="1.14513" z="1.14513"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="TorsoEarL">
+                <position x="0.157229" y="0.0789198" z="0.333661"/>
+                <scale x="1.14513" y="1.14513" z="1.14513"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="TorsoEarR">
+                <position x="-0.157226" y="0.0789198" z="0.333667"/>
+                <scale x="1.14513" y="1.14513" z="1.14513"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="TorsoEyes">
+                <position x="2.81814e-009" y="0.025725" z="0.360983"/>
+                <scale x="1.14513" y="1.14513" z="1.14513"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+        </node>
+    </nodes>
+</scene>

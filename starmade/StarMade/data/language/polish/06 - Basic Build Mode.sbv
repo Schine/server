@@ -1,0 +1,27 @@
+00:00:01.400,00:00:04.800
+Tryb budowy zapewnia dostęp do dodatkowych narzędzi do tworzenia obiektów.
+
+00:00:05.400,00:00:10.400
+Na pokładzie statku naciśnij na przycisk Zmień tryb statku ($CHANGE_SHIP_MODE), aby przejść z trybu budowy do trybu lotu.
+
+00:00:11.000,00:00:16.000
+Do użycia trybu budowy na terenie stacji lub planety, wymagany jest moduł budowy.
+
+00:00:16.480,00:00:20.800
+Użyj znajdującego się na module budowy przycisku Aktywuj ($ACTIVATE), aby uruchomić tryb budowy dla wybranych jednostek.
+
+00:00:21.600,00:00:25.080
+Dodatkowe menu jest dostępne przy zaawansowanych opcjach trybu budowy.
+
+00:00:25.200,00:00:28.600
+Przytrzymaj przycisk zaawansowanego trybu budowy ($BUILD_MODE_FIX_CAM), by przejść do tego menu.
+
+00:00:29.000,00:00:36.400
+Tryb zaawansowanej budowy umożliwa zmianę rozmiaru obszaru budowy przy pomocy kursora, lub zmiany kierunku ustawienia bloku, przytrzymując przycisk...
+
+00:00:36.440,00:00:39.600
+przycisk zaawansowanego trybu budowy ($BUILD_MODE_FIX_CAM) z użyciem kółka myszki.
+
+00:00:40.080,00:00:44.240
+Zaawansowany tryb budowy zawiera jeszcze wiele innych różnych funkcji, które zostaną omówione w oddzielnym rozdziale.
+

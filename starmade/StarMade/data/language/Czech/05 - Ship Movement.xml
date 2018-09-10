@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>Kupředu: $FORWARD_SHIP, Zpátky: $BACKWARDS_SHIP, Posun Vlevo: $STRAFE_LEFT_SHIP, Posun vpravo: $STRAFE_RIGHT_SHIP, Posun nahoru: $UP_SHIP, Posun dolů: $DOWN_SHIP, Rotovat vlevo: $ROTATE_LEFT_SHIP, Rotovat vpravo: $ROTATE_RIGHT_SHIP, Rotovat: $ROLL, Brzda: $BRAKE, Zastavit rotaci lodě: $CANCEL_SHIP, Zarovnat loď: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

@@ -1,0 +1,15 @@
+00:00:01.240,00:00:07.400
+Nodos de Nave son como naves son construidas y dan acceso al modo Volar y Construir.
+
+00:00:07.800,00:00:12.400
+Nodos de Nave en general pueden ser usados para volar en uso conveniente.
+
+00:00:12.800,00:00:18.400
+Presiona la tecla Spawnear Nave ($SPAWN_SHIP) cuando tengas un Nodo en tu inventario para crearlo en frente tuyo.
+
+00:00:18.600,00:00:22.000
+Presiona la tecla Activar ($ACTIVATE) para entrar o salir del Node de Nave.
+
+00:00:22.440,00:00:27.440
+Presiona la tecla Cambiar Modo ($CHANGE_SHIP_MODE) para cambiar de modo Volar a Construir y viceversa.
+

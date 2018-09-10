@@ -1,0 +1,87 @@
+<Tutorial description="NPC-TUT-05">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		Let's connect this thing.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		There is a cannon computer over there
+		and both cannon barrels aren't connected
+		to it. Let's fix it.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="connectblocks">
+		<Content>
+		Press '$SELECT_MODULE' on the computer to select it,
+		making the orange pulsating border appear.
+		Then go to the barrel and hit '$CONNECT_MODULE'
+		to link the two blocks.
+		</Content>
+		<blockPosA>38,9,-43</blockPosA>
+		<blockPosB>36,10,-44</blockPosB>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>	
+	
+	<StateC type="text">
+		<Content>
+		Well done! as you can see, the cannon
+		barrel now has a purple pulsating border,
+		which means it is linked to the computer.
+		Let's connect the other one.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateC>	
+	
+	
+	<StateE type="connectblocks">
+		<Content>
+		If the computer is already selected, you
+		now just have to press '$CONNECT_MODULE'
+		on the other barrel.
+		</Content>
+		<blockPosA>38,9,-43</blockPosA>
+		<blockPosB>40,10,-44</blockPosB>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>	
+	
+	<StateF type="text">
+		<Content>
+		Nice! The cannon is finally working again!
+		As a reward I will now teach you 
+		about the coolest thing I know: 
+		powerful weapon combinations!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>End</Satisfied>
+	</StateF>
+	
+	
+	
+	<End type="talktonpc">
+		<Content>
+		This is top secret!
+		Come back to talk to me.
+		</Content>
+		<NPCName>NPC-03</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+	</End>	
+	
+
+</Tutorial>

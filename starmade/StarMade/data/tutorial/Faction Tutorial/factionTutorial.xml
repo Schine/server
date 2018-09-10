@@ -1,0 +1,195 @@
+<Tutorial description="This tutorial is about the Faction system">
+	<Start type="text">
+		<Content>
+		Welcome to the Faction Tutorial.
+		This tutorial will explain how to manage
+		your faction and how to keep your ships and homebase 
+		safe from players.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		Factions are a vital part of StarMade.
+		Players can gather under 1 faction and work together
+		to accomplish a common goal. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	<StateB type="text">
+		<Content>
+		Press '$FACTION_MENU' to open the faction panel.
+		From here you can create and edit your own, or join an existing
+		faction. The 'Faction hub' tab shows you an overview
+		of all current factions in the game
+		and allows you to join a public faction.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		To create a faction, click on 'Create new faction'
+		in the 'Personal' tab. Choose a name
+		and click OK. You can alternatively,
+		also accept an invite by clicking on 'Invites'.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		In the "Faction" tab, you can manage your faction.
+		You can add a description and
+		write news posts. News will be visible for all
+		members of your faction. You can also accept peace 
+		or alliance offers from other factions.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Each member of your faction has a rank.
+		Ranks can be named and their permissions
+		can be set when clicking the "Roles" button.
+		
+		To change the name of a rank, click on the name.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Edit: Members are able to edit description 
+		  and post news.
+		Kick: Members can kick players of a lower rank.
+		Invite: Members are allowed to invite players to the faction.
+		Permission-Edit: Only give this to faction leaders, as it enables
+		  them to modify the ranks.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		You can assign a rank to a player by clicking on 'options' 
+		next to his name. 
+		In that options menu you can see all ranks and 
+		the ability to kick that person from your faction.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		You can also choose from several faction options:
+		'Public faction' makes it possible for players to
+		join without an invite. 'Declare war on hostile action'
+		will auto declare war when you faction is attacked.
+		'Consider neutral enemy' will change the relationship
+		with all faction-less entities to 'enemy'
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateI</Satisfied>
+	</StateH>
+	
+	<StateI type="text">
+		<Content>
+		In the faction hub, you can declare war 
+		and send peace/alliance offers by clicking on 
+		the 'relation' next to the faction's name.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateI1</Satisfied>
+	</StateI>
+	
+	<StateI1 type="text">
+		<Content>
+		It is possible to assign a ship to your faction. 
+		Only you and your faction members will be able 
+		to use it. To do this, place a "faction module" on the ship, 
+		press $ACITVATE on it and enter the faction signature.
+		The signature will stay as long as the faction block
+		is not destroyed.
+		</Content>	
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI1>
+	
+	<StateJ type="text">
+		<Content>
+		The same goes for a station, with the difference
+		that you can also make a station a faction's homebase.
+		Each faction can only have ONE homebase, as it has
+		a very big advantage: Homebases and everything docked
+		to it are invulnerable to damage.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateK</Satisfied>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		In the future there will be a system that allows 
+		some kind of faction war to deal with homebases.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>StateL</Satisfied>
+	</StateK>
+	
+	<StateL type="text">
+		<Content>
+		Factions can, instead of declaring war against a whole faction,
+		declare war against a single player. This can be done in the 
+		'Faction' tab and clicking on the 'Personal Enemies' button.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateK</Back>
+		<Satisfied>StateM</Satisfied>
+	</StateL>
+	
+	<StateM type="text">
+		<Content>
+		Faction chat is also available by
+		starting a message with '/f ' in chat,
+		or by pressing shift+$CHAT to do that automatically.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateL</Back>
+		<Satisfied>End</Satisfied>
+	</StateM>
+		
+	<End type="text">
+		<Content>
+		This concludes the Faction Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

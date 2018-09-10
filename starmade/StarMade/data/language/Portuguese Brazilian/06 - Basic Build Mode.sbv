@@ -1,0 +1,32 @@
+00:00:01.400,00:00:04.800
+O modo de construção fornece ferramentas adicionais para a elaboração de construções.
+
+00:00:05.400,00:00:10.400
+Quando em uma nave, pressione a tecla Alterar Modo da Nave ($CHANGE_SHIP_MODE)
+para alternar entre os modos de voo e construção.
+
+00:00:11.000,00:00:16.000
+Em estação, planeta ou asteroide, é preciso um bloco de construção para
+acessar o modo de construção.
+
+00:00:16.480,00:00:20.800
+Use a tecla de Ativação ($ACTIVATE) em um bloco de construção para
+entrar no modo de construção dessas entidades.
+
+00:00:21.600,00:00:25.080
+Um menu adicional pode ser acessado para as opções avançadas de construção.
+
+00:00:25.200,00:00:28.600
+Segure a tecla de Modo de Construção Avançado ($BUILD_MODE_FIX_CAM) para acessar este menu.
+
+00:00:29.000,00:00:36.400
+O modo de construção avançado permite alterar o tamanho da sua área
+de construção usando as barras de rolagem, ou a direção do bloco ao segurar...
+
+00:00:36.440,00:00:39.600
+a tecla de Modo de Construção Avançado ($BUILD_MODE_FIX_CAM) e usar o botão de rolagem do mouse.
+
+00:00:40.080,00:00:44.240
+Há muitas outras características do modo de construção
+avançado que serão abordadas separadamente.
+

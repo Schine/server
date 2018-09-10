@@ -1,0 +1,161 @@
+
+
+<Hud>
+<MainWindowFramePalette>
+		<BasicValues>
+			<WindowGradientStripeStart>43,37,35,0</WindowGradientStripeStart>
+			<WindowGradientStripeMid>90,80,77,0</WindowGradientStripeMid>
+			<WindowGradientStripeEnd>43,37,35,0</WindowGradientStripeEnd>
+			
+			<TopSizeModifierOffset>0,0</TopSizeModifierOffset>
+			<RightSizeModifierOffset>0,0</RightSizeModifierOffset>
+			<BottomSizeModifierOffset>0,0</BottomSizeModifierOffset>
+			<LeftSizeModifierOffset>0,0</LeftSizeModifierOffset>
+			
+			<MoveModifierOffset>0,0</MoveModifierOffset>
+		</BasicValues>
+	</MainWindowFramePalette>
+	<DialogWindowFramePalette>
+		<BasicValues>
+			<WindowGradientStripeStart>43,37,35,0</WindowGradientStripeStart>
+			<WindowGradientStripeMid>90,80,77,0</WindowGradientStripeMid>
+			<WindowGradientStripeEnd>43,37,35,0</WindowGradientStripeEnd>
+			
+			<TopSizeModifierOffset>0,0</TopSizeModifierOffset>
+			<RightSizeModifierOffset>0,0</RightSizeModifierOffset>
+			<BottomSizeModifierOffset>0,0</BottomSizeModifierOffset>
+			<LeftSizeModifierOffset>0,0</LeftSizeModifierOffset>
+			
+			<MoveModifierOffset>0,0</MoveModifierOffset>
+		</BasicValues>
+	</DialogWindowFramePalette>
+	<WindowFramePalette>
+		<BasicValues>
+			<WindowGradientStripeStart>0,0,0,0</WindowGradientStripeStart>
+			<WindowGradientStripeMid>0,0,0,0</WindowGradientStripeMid>
+			<WindowGradientStripeEnd>0,0,0,0</WindowGradientStripeEnd>
+		</BasicValues>
+	</WindowFramePalette>
+	<ListColorPalette>
+		<BasicValues>
+			<MainListBackgroundColor>20,26,33,128</MainListBackgroundColor>
+			<MainListBackgroundColorAlternate>11,13,17,128</MainListBackgroundColorAlternate>
+			<SelectedColor>57,62,68,255</SelectedColor>
+			
+			<FavoriteHighlightColor>31,116,131,55</FavoriteHighlightColor>
+			<FavoriteHighlightColorAlternate>31,116,131,64</FavoriteHighlightColorAlternate>
+			<FavortiteSelectedColor>31,116,131,64</FavortiteSelectedColor>
+			
+			<SpecialHighlightColor>116, 31,131,55</SpecialHighlightColor>
+			<SpecialHighlightColorAlternate>116,31,131,64</SpecialHighlightColorAlternate>
+			<SpecialSelectedColor>116,31,131,64</SpecialSelectedColor>
+			
+			
+			<BuyListBackgroundColor>31,116,131,55</BuyListBackgroundColor>
+			<BuyListBackgroundColorAlternate>31,116,131,64</BuyListBackgroundColorAlternate>
+			<BuyListBackgroundColorSelected>31,116,131,64</BuyListBackgroundColorSelected>
+			
+			<SellListBackgroundColor>131,116,31,55</SellListBackgroundColor>
+			<SellListBackgroundColorAlternate>131,116,31,64</SellListBackgroundColorAlternate>
+			<SellListBackgroundColorSelected>131,116,31,64</SellListBackgroundColorSelected>
+			
+			
+		</BasicValues>
+	</ListColorPalette>
+	<ChatColorPalette>
+		<BasicValues>
+			<SystemMessage>200,180,180,255</SystemMessage>
+			<GeneralChat>255,255,255,255</GeneralChat>
+			<FactionChat>0,255,0,255</FactionChat>
+			<WhisperChat>255,0,255,255</WhisperChat>
+			
+			<AllianceChat>0,255,255,255</AllianceChat>
+			<VicinityChat>255,255,0,255</VicinityChat>
+			<OtherChannelChat>140,140,255,255</OtherChannelChat>
+		</BasicValues>
+	</ChatColorPalette>
+	<GuiDateFormats>
+	
+	<!-- following the standard of http://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html -->
+		<BasicValues>
+			<Custom0>MMM</Custom0> 
+			<MailTime>MMM dd, yyyy - hh:mm a</MailTime> 
+			<NetworkStatTime>MM/dd - hh:mm:ss a</NetworkStatTime> 
+			<FactionMemberLastSeenTime>MMM dd, yyyy - hh:mm:ss a</FactionMemberLastSeenTime> 
+			<MessageLogTime>MM/dd, hh:mm:ss a</MessageLogTime> 
+			<FactionNewsTime>MMM dd, yyyy - hh:mm a</FactionNewsTime> 
+			<CatalogEntryCreated>MMM dd, yyyy - hh:mm a</CatalogEntryCreated> 
+		</BasicValues>
+	</GuiDateFormats>
+	<PlayerStatusColorPalette>
+		<BasicValues>
+			<OnlineActive>56,180,0,255</OnlineActive>
+			<OnlineInactive>43,131,20,255</OnlineInactive>
+			<OfflineActive>192,39,0,255</OfflineActive>
+			<OfflineInactive>104,28,10,255</OfflineInactive>
+		</BasicValues>
+	</PlayerStatusColorPalette>
+	<ButtonColorPalette>
+		<BasicValues>
+			<Ok>35,158,191,255</Ok>
+			<OkMouseOver>7,215,255,255</OkMouseOver>
+			<OkPressed>0,112,141,255</OkPressed>
+			
+			<OkText>50,233,252,255</OkText>
+			<OkTextMouseOver>50,233,252,255</OkTextMouseOver>
+			<OkTextPressed>30,135,155,255</OkTextPressed>
+			
+			<Cancel>190,96,0,255</Cancel>
+			<CancelMouseOver>255,135,46,255</CancelMouseOver>
+			<CancelPressed>168,101,28,255</CancelPressed>
+			
+			<CancelText>255,173,59,255</CancelText>
+			<CancelTextMouseOver>255,173,59,255</CancelTextMouseOver>
+			<CancelTextPressed>161,97,27,255</CancelTextPressed>	
+
+			<Tutorial>145,50,250,255</Tutorial>
+			<TutorialMouseOver>192,90,255,255</TutorialMouseOver>
+			<TutorialPressed>145,50,250,255</TutorialPressed>
+			
+			<TutorialText>201,121,251,255</TutorialText>
+			<TutorialTextMouseOver>201,121,251,255</TutorialTextMouseOver>
+			<TutorialTextPressed>201,121,251,255</TutorialTextPressed>
+
+			<Hostile>209,16,0,255</Hostile>
+			<HostileMouseOver>255,23,0,255</HostileMouseOver>
+			<HostilePressed>209,16,0,255</HostilePressed>
+			
+			<HostileText>249,43,14,255</HostileText>
+			<HostileTextMouseOver>249,43,14,255</HostileTextMouseOver>
+			<HostileTextPressed>249,43,14,255</HostileTextPressed>
+
+			<Friendly>56,180,0,255</Friendly>
+			<FriendlyMouseOver>101,217,57,255</FriendlyMouseOver>
+			<FriendlyPressed>56,180,0,255</FriendlyPressed>
+			
+			<FriendlyText>88,222,48,255</FriendlyText>
+			<FriendlyTextMouseOver>88,222,48,255</FriendlyTextMouseOver>
+			<FriendlyTextPressed>88,222,48,255</FriendlyTextPressed>
+			
+			<Neutral>0,132,204,255</Neutral>
+			<NeutralMouseOver>37,177,255,255</NeutralMouseOver>
+			<NeutralPressed>0,132,204,255</NeutralPressed>
+			
+			<NeutralText>18,155,230,255</NeutralText>
+			<NeutralTextMouseOver>18,155,230,255</NeutralTextMouseOver>
+			<NeutralTextPressed>18,155,230,255</NeutralTextPressed>	
+			
+			
+			<HButtonBlue>41, 148, 192, 255</HButtonBlue>
+			<HButtonRed>230, 64, 54, 255</HButtonRed>
+			<HButtonGreen>7, 193, 83, 255</HButtonGreen>
+			<HButtonPink>132, 53, 207, 255</HButtonPink>
+			<HButtonYellow>208, 186, 2, 255</HButtonYellow>
+			<HButtonOrange>204, 98, 23, 255</HButtonOrange>
+
+		</BasicValues>
+	</ButtonColorPalette>
+
+</Hud>
+        
+        

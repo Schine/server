@@ -1,0 +1,7 @@
+<Meta>
+<Keybinds>Вперед: $FORWARD_SHIP, Назад: $BACKWARDS_SHIP, Стрейф влево: $STRAFE_LEFT_SHIP, 
+Стрейф вправо: $STRAFE_RIGHT_SHIP, Стрейф вверх: $UP_SHIP, Стрейф вниз: $DOWN_SHIP, 
+Поворот влево: $ROTATE_LEFT_SHIP, Поворот враво: $ROTATE_RIGHT_SHIP, Повернуть корабль: $ROLL, 
+Тормоз: $BRAKE, Отменить вращение: $CANCEL_SHIP, Выровнять корабль: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

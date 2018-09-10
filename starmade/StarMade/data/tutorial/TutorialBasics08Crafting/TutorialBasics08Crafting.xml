@@ -1,0 +1,294 @@
+<Tutorial description="NPC-TUT-08">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		Ok, we are going to mine some minerals,
+		make a basic factory, and them
+		craft a power module
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	<StateA type="text">
+		<Content>
+		There are two kinds of raw resources:
+		Ores and Shards. There are several
+		types of each to find in this world.
+		For basic crafting, the color doesn't matter.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	<StateB type="text">
+		<Content>
+		Ok, there is a big stack
+		of mineral rich resources
+		over there.
+		Let's go mining
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+
+	<StateC type="typeininventory">
+		<Content>
+		Please mine some Hattel Shards!
+		Deselect any weapon (mouse wheel) 
+		and hold the right mouse button
+		on the minerals.
+		</Content>
+		<TypeA>480</TypeA>
+		<Count>6</Count>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="typeininventory">
+		<Content>
+		Please mine some Threns ore.
+		Deselect any weapon (mouse wheel) 
+		and hold the right mouse button
+		on the minerals!
+		</Content>
+		<TypeA>488</TypeA>
+		<Count>6</Count>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Great, you have all the resources you need.
+		Throughout the universe many different types
+		of minerals can be found on planets and asteroids.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	<StateF type="text">
+		<Content>
+		Specific asteroid types will always contain
+		the same mineral types.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	<StateG type="text">
+		<Content>
+		Planets however always have two random
+		kinds of minerals per side, but they
+		are more sparsely distributed.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateG2</Satisfied>
+	</StateG>
+	<StateG2 type="text">
+		<Content>
+		You can process raw materials
+		yourself, although it's much
+		more efficient with the factory
+		blocks. Let's give it a shot!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG2>
+	<StateH type="typeinpersonalcapsulerefinery">
+		<Content>
+		No text needed here
+		</Content>
+		<TypeA>488</TypeA> <!-- make metal mesh(440) -->
+		<Duration>3000</Duration>
+		<Count>6</Count>
+		<Back>StateG</Back>
+		<Satisfied>StateH2</Satisfied>
+	</StateH>
+	<StateH2 type="text">
+		<Content>
+		Good job! This will now turn your ore
+		into 10 metal meshes a piece. The progress bar at the
+		bottom shows you the tick-rate.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateH3</Satisfied>
+	</StateH2>
+	<StateH2 type="text">
+		<Content>
+		Always keep in mind that you only can put in ONE raw 
+		resource at a time in the personal crafter, 
+		because you need a free slot for the product to go.
+		So it's better to do it in a factory block. 
+		Now let's make some circuits!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateH3</Satisfied>
+	</StateH2>
+	<StateH3 type="typeinpersonalcapsulerefinery">
+		<Content>
+		No text needed here
+		</Content>
+		<TypeA>480</TypeA><!-- make crystal circuit (220) -->
+		<Duration>3000</Duration>
+		<Count>6</Count>
+		<Back>StateH2</Back>
+		<Satisfied>StateI</Satisfied>
+	</StateH3>
+	<StateI type="text">
+		<Content>
+		Meshes and Circuits are your main ingredients
+		for all basic crafting recipes. You only need
+		10 of either Metal Mesh or Crystal Circuits
+		to make the basic factory. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateI2</Satisfied>
+	</StateI>
+	<StateI2 type="text">
+		<Content>
+		Now place either the Metal Meshes,
+		or the Crystal Circuits in your
+		personal basic factory craft slot.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI2>
+	<StateJ type="typeinpersonalfactoryassember">
+		<Content>
+		No text needed here
+		</Content> <!-- basic factory is 211 -->
+		<TypeA>440</TypeA>
+		<Count>10</Count>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateK</Satisfied>
+	</StateJ>
+	<StateK type="text">
+		<Content>
+		Awesome! You now have a basic factory!
+		Remember that factories need power
+		to produce! This station has enough power though!
+		Should you ever be in a survival situation,
+		use a personal power beam to provide power.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>StateL</Satisfied>
+	</StateK>
+	<StateL type="placeblock">
+		<Content>
+		Now place the basic factory on the
+		marked position.
+		</Content>
+		<TypeA>211</TypeA>
+		<Duration>3000</Duration>
+		<BlockPosA>83, 9, -5</BlockPosA>
+		<RecordPosition>true</RecordPosition>
+		<Back>StateK</Back>
+		<Satisfied>StateM</Satisfied>
+	</StateL>
+	<StateM type="openchest">
+		<Content>
+		Great!, now press '$ACTIVATE' on the factory
+		to open it.
+		</Content>
+		<BlockPosA>83, 9, -5</BlockPosA>
+		<Condition failTo="stateL" pos="83, 9, -5">blockExists</Condition>
+		<Duration>3000</Duration>
+		<Back>StateL</Back>
+		<Satisfied>StateN</Satisfied>
+	</StateM>
+	<StateN type="text">
+		<Content>
+		As you can see, you can put things
+		into the factory or pull them out,
+		just like you would do with your hotbar.
+		</Content>
+		<Condition failTo="stateM" pos="83, 9, -5">chestOpen</Condition>
+		<Condition failTo="stateL" pos="83, 9, -5">blockExists</Condition>
+		<Duration>3000</Duration>
+		<Back>StateM</Back>
+		<Satisfied>StateO</Satisfied>
+	</StateN>
+	<StateO type="selectproductionon">
+		<Content>
+		Press the 'Change Production' button, and type
+		in 'power', then hit the drop down
+		and select 'power reactor module'
+		to setup the factory
+		</Content>
+		<Condition failTo="stateM" pos="83, 9, -5">chestOpen</Condition>
+		<Condition failTo="stateL" pos="83, 9, -5">blockExists</Condition>
+		<BlockPosA>83, 9, -5</BlockPosA>
+		<TypeA>2</TypeA>
+		<Duration>3000</Duration>
+		<Back>StateN</Back>
+		<Satisfied>StateP</Satisfied>
+	</StateO>
+	<StateP type="text">
+		<Content>
+		Awesome! The factory will now produce power
+		recharge modules.
+		Oh, and with the 'View Graph' button you can
+		always check what you need to
+		produce an item.
+		</Content>
+		<Condition failTo="stateM" pos="83, 9, -5" type="2" >setProduction</Condition>
+		<Condition failTo="stateM" pos="83, 9, -5">chestOpen</Condition>
+		<Condition failTo="stateL" pos="83, 9, -5">blockExists</Condition>
+		<Duration>3000</Duration>
+		<Back>StateO</Back>
+		<Satisfied>StateQ</Satisfied>
+	</StateP>
+	<StateQ type="putinchest">
+		<Content>
+		Now just throw in your metal mesh in 
+		(I will give you some if you need any).
+		</Content>
+		
+		<Condition failTo="stateM" pos="83, 9, -5" type="2" >setProduction</Condition>
+		<Condition failTo="stateM" pos="83, 9, -5">chestOpen</Condition>
+		<Condition failTo="stateL" pos="83, 9, -5">blockExists</Condition>
+		<BlockPosA>83, 9, -5</BlockPosA>
+		<TypeA>440</TypeA>
+		<Count>20</Count>
+		<Duration>3000</Duration>
+		<Back>StateP</Back>
+		<Satisfied>StateS</Satisfied>
+	</StateQ>
+	
+	<StateS type="waitingtext">
+		<Content>
+		Great! as you can see, it will
+		produce a power module now.
+		
+		</Content>
+		<NPCName>NPC-05</NPCName>
+		<Duration>5000</Duration>
+		<Back>StateQ</Back>
+		<Satisfied>End</Satisfied>
+	</StateS>
+	<End type="text">
+		<Content>
+		Congratulations! You are done with the tutorial. End
+		it any time you want in the main menu (ESC). 
+		There are some more NPCs around that
+		may tell you one or another secret about this world!
+		</Content>
+		<NPCName>NPC-05</NPCName>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>	
+	
+
+</Tutorial>

@@ -1,0 +1,73 @@
+<Tutorial description="NPC-TUT-01">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		I'm going to let you try out the controls for a bit now!
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="activateblock">
+		<Content>
+		Take as long as you like!
+		You can activate blocks with '$ACTIVATE'
+		try it out on the lights and the gravity module
+		under the red light block.
+		
+		</Content>
+		<blockPosA>13,10,8</blockPosA>
+		<active>false</active>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="text">
+		<Content>
+		This is zero gravity.
+		You can move up with $UP
+		and down with $DOWN.
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>	
+	<StateC type="text">
+		<Content>
+		You can also align yourself to any structure with 
+		the space bar. This comes in very handy when entering a ship 
+		through narrow corridors.
+		When aligned, you will also fly with the ship 
+		if it's moving.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>	
+	<StateD type="activateblock">
+		<Content>
+		Alright!
+		Press '$ACTIVATE' again on the gravity
+		module to reactivate the gravity.
+		</Content>
+		<blockPosA>13,10,8</blockPosA>
+		<active>true</active>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>End</Satisfied>
+	</StateD>	
+	
+	<End type="talktonpc">
+		<Content>
+		Great!
+		Come back to talk to me.
+		</Content>
+		<NPCName>NPC-00</NPCName>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+	</End>	
+	
+
+</Tutorial>

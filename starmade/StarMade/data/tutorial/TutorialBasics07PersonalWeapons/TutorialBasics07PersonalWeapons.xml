@@ -1,0 +1,29 @@
+<Tutorial description="NPC-TUT-07">
+	<Start type="text">
+		<Content>
+		####RADIO-TRANSMISSION####
+		Try out the weapons as long as you
+		like and then go over to NPC-05
+		for your last lesson
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>End</Satisfied>
+	</Start>
+	
+
+	
+	
+	
+	<End type="talktonpc">
+		<Content>
+		Try out the personal guns
+		as long as you like, and then
+		talk to NPC-05 for you last lesson
+		</Content>
+		<NPCName>NPC-05</NPCName>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>	
+	
+
+</Tutorial>

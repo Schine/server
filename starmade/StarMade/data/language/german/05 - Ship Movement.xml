@@ -1,0 +1,7 @@
+<Meta>
+<Keybinds>Vorwärts: $FORWARD_SHIP, Rückwärts: $BACKWARDS_SHIP, Links: $STRAFE_LEFT_SHIP, 
+Rechts: $STRAFE_RIGHT_SHIP, Hoch: $UP_SHIP, Runter: $DOWN_SHIP, 
+links Rotieren: $ROTATE_LEFT_SHIP, rechts Rotieren: $ROTATE_RIGHT_SHIP, Schiff rollen: $ROLL, 
+Bremsen: $BRAKE, Schiffsrotation anhalten: $CANCEL_SHIP, Schiffskamera ausrichten: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

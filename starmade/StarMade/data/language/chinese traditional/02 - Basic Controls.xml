@@ -1,0 +1,5 @@
+<Meta>
+<Keybinds>觸發方塊: $ACTIVATE, 使用/建造: 滑鼠左鍵, 拆除: 滑鼠右鍵, 
+物品欄: $INVENTORY_PANEL, 快速拖放: $INVENTORY_SWITCH_ITEM, 選單: ESC</Keybinds>
+<Description>Basic Controls</Description>
+</Meta>

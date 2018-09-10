@@ -1,0 +1,24 @@
+00:00:00.880,00:00:02.600
+Użyj myszki, aby rozejrzeć się dookoła.
+
+00:00:02.640,00:00:06.560
+Ruch podstawowy odbywa się za pomocą przycisków Do przodu ($FORWARD), Do tyłu ($BACKWARDS), Odbicie w lewo ($STRAFE_LEFT)...
+
+00:00:06.600,00:00:08.200
+i przycisk odbij w prawo ($STRAFE_RIGHT).
+
+00:00:08.400,00:00:13.800
+Do astronauty poza polem grawitacyjnym: aby wznieść się w górę lub zejść w dół, użyj klawisza Wzleć ($UP) i opadaj ($DOWN).
+
+00:00:14.400,00:00:18.400
+W stanie nieważkości możesz wyrównać swoją pozycję względem obiektu, używając przycisku Chwytak ($GRAPPLING_HOOK).
+
+00:00:19.000,00:00:23.000
+Do astronauty znajdującego się polu grawitacyjnym: użyj przycisku Skok ($JUMP), aby wykonać ruch pionowy.
+
+00:00:23.400,00:00:27.600
+W stanie grawitacji, możesz poruszać się w wolniejszym tempie, używając przycisku Chodzenie ($WALK).
+
+00:00:27.800,00:00:30.680
+Większość bloków można położyć za pomocą przycisku Umieść ($SIT).
+

@@ -1,0 +1,21 @@
+00:00:01.000,00:00:04.200
+Chaque vaisseau et station peut être enregistré dans le catalogue.
+
+00:00:04.600,00:00:09.000
+Le catalogue répertorie les créations que vous avez enregistrées, ou celles que d'autres ont partagé.
+
+00:00:09.600,00:00:12.400
+Ouvrez le catalogue avec la touche Panneau catalogue ($CATALOG_PANEL).
+
+00:00:12.600,00:00:18.600
+D'ici, le vaisseau actuellement occupé et toutes les entités amarrées peuvent être enregistrés dans un serveur ou dans vos fichiers locaux.
+
+00:00:24.600,00:00:29.000
+Après qu'un vaisseau ait été enregistré, son plan peut être acheté depuis le panneau catalogue.
+
+00:00:29.270,00:00:34.800
+Faire un clic droit sur un plan dans l'inventaire affichera les composants requis à sa création.
+
+00:00:35.080,00:00:39.400
+Une fois que le plan est rempli, créez l'entité en cliquant sur le bouton Créer.
+

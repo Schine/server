@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>Dopředu: $FORWARD, Dozadu: $BACKWARDS, Úkrok vlevo: $STRAFE_LEFT, Úkrok vpravo: $STRAFE_RIGHT, Stoupat: $UP, Klesat: $DOWN, Uchytit: $GRAPPLING_HOOK, Skok: $JUMP, Chůze: $WALK, Sednout: $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>

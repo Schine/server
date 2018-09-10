@@ -1,0 +1,4 @@
+//sector-bulk-export-import-example.txt
+//usage: positionToExport >> exportName >> positionToImport
+2, 2, 2 >> home >> 2, 2, 2
+10, 5, 4 >> myFactionHomebase >> 3, 3, 3

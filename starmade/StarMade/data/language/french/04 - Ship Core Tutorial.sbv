@@ -1,0 +1,15 @@
+00:00:01.240,00:00:07.400
+Les Noyaux de vaisseau permettent la construction des vaisseaux, et donnent accès aux modes vol et construction d'un vaisseau.
+
+00:00:07.800,00:00:12.400
+Les Noyaux de vaisseau seuls peuvent être utilisés comme vaisseaux pour se déplacer simplement et assez rapidement.
+
+00:00:12.800,00:00:18.400
+Appuyez sur la touche Créer un vaisseau ($SPAWN_SHIP) lorsque vous avez un noyau dans votre inventaire pour créer un Noyau de vaisseau devant vous.
+
+00:00:18.600,00:00:22.000
+Appuyez sur la touche Activer ($ACTIVATE) pour entrer ou sortir du Noyau de vaisseau.
+
+00:00:22.440,00:00:27.440
+Appuyez sur la touche Changer le mode du vaisseau ($CHANGE_SHIP_MODE) pour basculer entre les modes vol et construction du vaisseau.
+

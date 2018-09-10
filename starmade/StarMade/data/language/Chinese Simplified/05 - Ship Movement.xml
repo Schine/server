@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>前进︰ $FORWARD_SHIP ，后退︰ $BACKWARDS_SHIP，左平移︰ $STRAFE_LEFT_SHIP，右平移︰ $STRAFE_RIGHT_SHIP，上平移︰ $UP_SHIP，下平移︰ $DOWN_SHIP，向左旋转︰ $ROTATE_LEFT_SHIP，向右旋转︰ $ROTATE_RIGHT_SHIP，旋转︰ $ROLL，刹车︰ $BRAKE，取消船旋转︰ $CANCEL_SHIP，对齐默认轴线︰ $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

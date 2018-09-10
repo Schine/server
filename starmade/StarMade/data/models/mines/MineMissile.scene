@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="z" unitsPerMeter="3.93701" unitType="/10" minOgreVersion="1.8" ogreMaxVersion="2.6.1" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="10000"/>
+    </environment>
+    <nodes>
+        <node name="MineMissile">
+            <position x="0" y="0" z="0"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="MineMissile" castShadows="true" receiveShadows="true" meshFile="MineMissile.mesh">
+                <subentities>
+                    <subentity index="0" materialName="MineMissile"/>
+                </subentities>
+            </entity>
+            <node name="output1_1">
+                <position x="0" y="-0.5" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="output3_1">
+                <position x="0" y="0.5" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="1" qw="7.54979e-008"/>
+            </node>
+            <node name="output2_1">
+                <position x="0.5" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0.707107" qw="0.707107"/>
+            </node>
+            <node name="output5">
+                <position x="0" y="0" z="-0.5"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0.5" qy="-0.5" qz="-0.5" qw="0.5"/>
+            </node>
+            <node name="output6">
+                <position x="0" y="0" z="0.5"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0.5" qy="0.5" qz="-0.5" qw="-0.5"/>
+            </node>
+            <node name="output4_1">
+                <position x="-0.5" y="0" z="0"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="-0.707107" qw="0.707107"/>
+            </node>
+        </node>
+    </nodes>
+</scene>

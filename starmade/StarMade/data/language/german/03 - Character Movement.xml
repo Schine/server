@@ -1,0 +1,5 @@
+<Meta>
+<Keybinds>Vorwärts: $FORWARD, Rückwärts: $BACKWARDS, Links: $STRAFE_LEFT, Rechts: $STRAFE_RIGHT, 
+Hoch: $UP, Runter: $DOWN, Greifen: $GRAPPLING_HOOK, Springen: $JUMP, Gehen: $WALK, Sit: $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>

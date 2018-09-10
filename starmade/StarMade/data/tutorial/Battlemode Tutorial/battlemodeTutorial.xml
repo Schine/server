@@ -1,0 +1,84 @@
+<Tutorial description="What is and how to use Battle Mode">
+	<Start type="text">
+		<Content>Welcome to the Battle Mode Tutorial</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		Battle Mode is a sub-mode for StarMade
+		as a simple test for future modes.
+		
+		It essentially turns the game into a
+		arcade fighter.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		In StarMade, building and
+		gathering resources takes time,
+		
+		Battle Mode lets people duel in a
+		death match or team battle without having
+		to worry about the rest.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		Admins can enable Battle Mode by editing 
+		the server.cfg file.
+		If the "Use_Personal_Sectors" option is set to 'true', 
+		each player will have its own sector he cannot leave,
+		but he will be provided with an infinite shop that 
+		never runs out of supplies nor requires credits to use,
+		allowing you to build a PVP ship.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		To battle, the players have to join a
+		specific faction: Team factions or the FFA faction.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		The game will decide between FFA or Team Deathmatch 
+		by looking at the player count in each faction.
+		The mode with the most players will be chosen.
+				
+		Press '$LEADERBOARD' to see the Battle Mode leaderboard.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>End</Satisfied>
+	</StateE>
+	
+	<End type="text">
+		<Content>
+		This concludes the Battle Mode Tutorial.
+		Thanks for reading, 
+		and thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

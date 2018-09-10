@@ -1,0 +1,12 @@
+material BaseWhite
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}

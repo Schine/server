@@ -1,0 +1,81 @@
+<Tutorial description="How to use the navigation panel">
+	<Start type="text">
+		<Content>Welcome to the Navigation Tutorial.</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		The universe is a big place.
+		Travelling to other places
+		salvaging important locations and meeting new players
+		is vital to survive.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		You are currently in a sector.
+		A sector is composed of 3 coordinates to indicate where 
+		it is located in the universe.
+		These coordinates are visible on top 
+		of the GUI near your name.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		A System is a big collection of sectors, 16 by 16 by 16 sectors
+		to be exact. In the middle of each system 
+		is almost always a star located.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		You can look at all the objects in your vicinity
+		by pressing $NAVIGATION_PANEL. The filter will
+		help you organize it 
+		by disabling or enabling certain objects. Clicking on an
+		object in the list will select it in your HUD.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		To make a waypoint for a specific sector,
+		press the 'waypoint' button and enter
+		the coordinates of the sector you want
+		to travel to. This waypoint will now
+		be shown as a white blinking indication on your HUD.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>End</Satisfied>
+	</StateE>
+	
+	<End type="text">
+		<Content>
+		This concludes the Navigation Tutorial.
+		Thanks for reading, 
+		and thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

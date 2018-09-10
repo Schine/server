@@ -1,0 +1,208 @@
+<Tutorial description="Explains the advanced build mode tools">
+	<Start type="text">
+		<Content>
+		Welcome to the Advanced Building Tutorial!
+		Here you will learn how to use the tools
+		to make building a lot faster and easier
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		You can only access the advanced building
+		mode in a ship core or build block.
+				
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	
+	<StateB type="text">
+		<Content>
+		The first useful feature is the left shift button,
+		It will let you move a lot faster
+		(as opposed to
+		slower in astronaut mode).
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		While in build mode, hold down $BUILD_MODE_FIX_CAM
+		to activate the advanced build mode.
+		You will see several options
+		on the right side of your screen.
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Image>full</Image>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		While holding $BUILD_MODE_FIX_CAM , 
+		you can place/remove blocks by directly clicking on blocks
+		with your mouse cursor.
+		Each tool will now be explained...		
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Remove mode turns the yellow build box
+		into a red one that shows you what blocks
+		are going to be removed.
+		This is especially helpful for removing
+		larger areas.
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Lighten mode removes any shadows and
+		shading from the blocks, lighting
+		up dark areas to make it easier
+		to see when building. Keep in mind
+		to disable it once in a while to see 
+		how good your ship looks with lighting enabled.		
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		The three sliders are one of the best tools 
+		for building. They will increase the build area
+		so multiple blocks can be build/removed at once.
+		Servers have different max settings, and you
+		can set them for your single player game
+		in the server.cfg file.		
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateG1</Satisfied>
+	</StateG>
+	
+	<StateG1 type="text">
+		<Content>
+		Orientation is available if a rotatable block
+		is selected. Those blocks
+		are either blocks with individual sides
+		or special shapes like wedges.
+		
+		You can also rotate through the block orientations
+		with the mouse wheel while holding $BUILD_MODE_FIX_CAM		
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG1>
+	
+	<StateH type="text">
+		<Content>
+		Whenever you accidentally misplaced
+		or deleted a block, you can undo your
+		last actions by clicking on 'undo'.
+		
+		You can also redo by clicking on 'redo'.
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>StateI</Satisfied>
+	</StateH>
+	
+	<StateI type="text">
+		<Content>
+		Copy/paste lets you select an area and paste it,
+		providing you have the required blocks.
+		Click on "copy" and then select the area
+		to copy then click on paste to place
+		it down again. Connections will be copied
+		if the controller and controlled blocks are both
+		in the copied area.		
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI>
+	
+	<StateI type="text">
+		<Content>
+		Symmetry planes are probably the best tools in the game. 
+		You place down 'walls' that divide your structure in parts. 
+		Placing a block on one side will also place the
+		block on the other side. 'odd' symmetry just lets you 
+		move the wall to the middle of a block.
+		You can use multiple symmetry planes to
+		maximize your building speed.
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateH</Back>
+		<Satisfied>StateJ</Satisfied>
+	</StateI>
+	
+	<StateJ type="text">
+		<Content>
+		Mirror mode basically just tells
+		symmetry mode to also mirror
+		blocks that can be orientated
+		like weapons, etc...
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateI</Back>
+		<Satisfied>StateK</Satisfied>
+	</StateJ>
+	
+	<StateK type="text">
+		<Content>
+		The remove filter is a great tool to quickly refit your ship!
+		You can select a block from the drop down menu
+		(or use the filter above to search for specific names) and only
+		the selected block will be removed when right clicking.
+		
+		This works with larger build areas and symmetry.
+		</Content>
+		<Image>full</Image>
+		<Duration>3000</Duration>
+		<Back>StateJ</Back>
+		<Satisfied>End</Satisfied>
+	</StateK>
+	
+	<End type="text">
+		<Content>
+		This concludes the Advanced Build Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

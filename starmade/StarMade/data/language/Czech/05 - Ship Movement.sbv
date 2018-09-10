@@ -1,0 +1,24 @@
+00:00:01.920,00:00:05.600
+V režimu letu, při ovládání lodi, se otáčejte pomocí myši.
+
+00:00:06.000,00:00:10.000
+Horizontálního pohybu lodi lze dosáhnout použitím kláves Kupředu ($FORWARD_SHIP), Zpátky ($BACKWARDS_SHIP), Posun vlevo ($STRAFE_LEFT_SHIP)...
+
+00:00:10.080,00:00:11.800
+a Posun vpravo ($STRAFE_RIGHT_SHIP).
+
+00:00:12.080,00:00:15.800
+Vertikálního pohybu lze dosáhnout použitím kláves pro Posun nahoru ($UP_SHIP) a Posun dolů ($DOWN_SHIP).
+
+00:00:16.200,00:00:20.600
+Loď lze otáčet okolo své osy pomocí kláves Rotovat vlevo ($ROTATE_LEFT_SHIP) a Rotovat vpravo ($ROTATE_RIGHT_SHIP).
+
+00:00:20.800,00:00:25.600
+Držením klávesy Rotovat ($ROLL) a pohybem myši vlevo a vpravo lze také točit loď okolo své osy.
+
+00:00:26.200,00:00:33.800
+Použitím klávesy Brzda ($BRAKE) lze zpomalit a zastavit loď, která je v pohybu. Pomocí klávesy Zastavit rotaci lodě ($CANCEL_SHIP) lze zastavit rotaci.
+
+00:00:34.200,00:00:39.000
+Lodě mohou být zarovnány ke galaktickému "severu" pomocí klávesy Zarovnat loď ($ALIGN_SHIP).
+

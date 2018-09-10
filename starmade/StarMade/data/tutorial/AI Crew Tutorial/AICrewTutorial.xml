@@ -1,0 +1,122 @@
+<Tutorial description="How the AI Crew works">
+	<Start type="text">
+		<Content>
+		Welcome to the AI Crew Tutorial.
+		This tutorial explains how to get
+		and control your AI crew
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		The use of AI is part of a bigger
+		picture that is still a work in progress,
+		you can already hire and use your own AI
+		crew.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="text">
+		<Content>
+		At this moment, hiring crew can only be done
+		at an advanced shop. Those shops are located in
+		the starting sector of new worlds but also
+		spawn randomly, although more rarely than normal shops.
+		
+		To find them, check your navigation panel
+		for Trading guild NPCs during your travels. 		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		An advanced shop has an NPC, which 
+		you can talk to with $ACTIVATE. He lets you hire 
+		up to 5 NPCs. 		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		That doesn't mean that you can only get 5 in total.
+		However, you can only have 5 at a time that follow
+		your direct commands.
+		You can discharge NPCs to your ship and get more.
+		They will wait for you. Just press $ACTIVATE on one of 
+		your crew members and tell him to wait or join you.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		You can control your NPCs by
+		pressing '$AI_CONTROL_KEY'. A list of your
+		NPCs will appear to the left and 
+		you can select the one you want to
+		give commands to.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Note that NPCs have a "home" they
+		belong to (like a ship). To attach them
+		to your ship, tell them to follow you.
+		
+		Then go to your ship and tell them to go to a
+        point on your ship. This will make the ship
+        their new 'home', and they will move with it.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		In the AI panel ('$AI_CONFIG_PANEL'), click on the Crew tab.
+		Here you can rename your AI crew and remove them if needed.
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		You can also change their behaviour
+		in the AI panel.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+	</StateH>
+	
+	<End type="text">
+		<Content>
+		This concludes the AI Crew Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

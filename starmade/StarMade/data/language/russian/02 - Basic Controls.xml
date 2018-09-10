@@ -1,0 +1,5 @@
+<Meta>
+<Keybinds>Активировать: $ACTIVATE, Использовать/Строить: Левая Кнопка МЫши, Разобрать: Правая Кнопка Мыши, 
+Инвентарь: $INVENTORY_PANEL, Быстрое переключение в Инвентаре: $INVENTORY_SWITCH_ITEM, Меню: Escape</Keybinds>
+<Description>Basic Controls</Description>
+</Meta>

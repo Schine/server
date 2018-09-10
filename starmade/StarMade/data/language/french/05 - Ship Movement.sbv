@@ -1,0 +1,24 @@
+00:00:01.920,00:00:05.600
+Dans un vaisseau en mode vol, tournez en utilisant la souris.
+
+00:00:06.000,00:00:10.000
+Les mouvements horizontaux s'effectuent avec les touches Avancer ($FORWARD), Reculer ($BACKWARDS), Déplacement à gauche ($STRAFE_LEFT)...
+
+00:00:10.080,00:00:11.800
+et Déplacement à droite ($STRAFE_RIGHT).
+
+00:00:12.080,00:00:15.800
+Les mouvements verticaux s'effectuent avec les touches Déplacement vers le haut ($UP_SHIP) et Déplacement vers le bas ($DOWN_SHIP).
+
+00:00:16.200,00:00:20.600
+Le vaisseau peut être roulé en utilisant les touches Tourner à gauche ($ROTATE_LEFT_SHIP) et Tourner à droite ($ROTATE_RIGHT_SHIP).
+
+00:00:20.800,00:00:25.600
+Maintenir la touche Rouler le vaisseau ($ROLL) et déplacer la souris à gauche et à droite fera également rouler le vaisseau.
+
+00:00:26.200,00:00:33.800
+Utilisez le Frein ($BRAKE) pour ralentir et arrêter un vaisseau en mouvement, et annulez sa rotation avec la touche Annuler rotation ($CANCEL_SHIP).
+
+00:00:34.200,00:00:39.000
+Les vaisseaux peuvent être alignés avec le Nord Galactique en appuyant sur la touche Aligner caméra vaisseau ($ALIGN_SHIP).
+

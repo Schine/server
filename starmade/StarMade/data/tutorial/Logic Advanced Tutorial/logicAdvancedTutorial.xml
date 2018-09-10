@@ -1,0 +1,123 @@
+<Tutorial description="More about the logic system and its blocks">
+	<Start type="text">
+		<Content>
+		Welcome to the Advanced Logic Tutorial.
+		
+		In the basic tutorial, you were introduced to the
+		activation block, which is the most vital block
+		in the system. Here you will learn about all
+		the other blocks used in logic and its triggers.
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		As you now know, you can link blocks together
+		to make a chain to remote control
+		the block at the end. You can build 
+		a lot more complex things though.
+		This is where the NOT, OR, AND, and DELAY blocks
+		come into play.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="text">
+		<Content>
+		Every one of these blocks can be linked just
+		like the activation blocks. 
+		
+		The simplest one to understand is probably the NOT block.
+		What it does is simply inverting an incoming signal 
+		from 'on' to 'off' and vice versa. 
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		The more complicated blocks are the
+		AND and OR blocks. 
+		Those blocks will need multiple inputs. 
+		The inputs can by any logic blocks, even OR and AND
+		themselves.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		AND will look at all the blocks that are
+		connected to it and only output the 'on'
+		signal when ALL of the receiving signals are 'on'.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		OR will look at all the blocks that are
+		connected to it and only output the 'on'
+		signal when ONE or more of the receiving signals is 'on'.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>StateF</Satisfied>
+	</StateE>
+	
+	<StateF type="text">
+		<Content>
+		Now to the delay block.
+		The delay block takes a signal on/off and 
+		outputs it just like the activation block.
+		
+		However, it will not do this immediately 
+		but with a delay.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateE</Back>
+		<Satisfied>StateG</Satisfied>
+	</StateF>
+	
+	<StateG type="text">
+		<Content>
+		The delay block enables players to build
+		looped systems like clocks, and many more
+		complex circuits.	
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateF</Back>
+		<Satisfied>StateH</Satisfied>
+	</StateG>
+	
+	<StateH type="text">
+		<Content>
+		There are several internet sites to look up basic
+		logic gates. You can rebuild these in StarMade.		
+		</Content>		
+		<Duration>3000</Duration>
+		<Back>StateG</Back>
+		<Satisfied>End</Satisfied>
+	</StateH>
+		
+	<End type="text">
+		<Content>
+		This concludes the Advanced Logic Tutorial.
+		Thanks for reading, and thanks for playing
+		StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

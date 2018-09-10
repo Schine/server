@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>船の作成: $SPAWN_SHIP / 起動: $ACTIVATE / 船のモード変更: $CHANGE_SHIP_MODE</Keybinds>
+<Description>Ship Core</Description>
+</Meta>

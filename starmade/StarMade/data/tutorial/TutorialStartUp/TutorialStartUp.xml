@@ -1,0 +1,45 @@
+<Tutorial description="startUp">
+	<Start type="text">
+		<Content>
+		Welcome to StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		Do you want to do the tutorial?
+		It will teleport you to the tutorial sector
+		
+		Hit next to start the tutorial, or exit to 
+		cancel!
+		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>	
+	
+	<StateB type="teleporttotutorialsector">
+		<Content>
+		Teleporting you to the tutorial sector now!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<BlockPosA>19, 10, 8</BlockPosA>
+		<StructureUID>ENTITY_SPACESTATION_schema_14153_50_50_500</StructureUID>
+		<Back>StateA</Back>
+		<Satisfied>End</Satisfied>
+	</StateB>
+	
+	
+	<End type="tutorialcompleted">
+		<Content>
+		Thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

@@ -1,0 +1,27 @@
+00:00:01.400,00:00:04.800
+Der Baumodus stellt zusätzliche Werkzeuge zum Bauen bereit.
+
+00:00:05.400,00:00:10.400
+Wenn du in einem Schiff bist, drücke die Moduswechseltaste ($CHANGE_SHIP_MODE) um zwischen Bau- und Flugmodus zu wechseln.
+
+00:00:11.000,00:00:16.000
+Auf Stationen, Planeten oder Asteroiden wird ein Baublock benötigt um in den Baumodus zu gelangen.
+
+00:00:16.480,00:00:20.800
+Benutze die Aktivierentaste ($ACTIVATE) an einem Baublock um in den Baumodus zu gelangen.
+
+00:00:21.600,00:00:25.080
+Auf ein zusätzliches Menü kann zugegriffen werden um erweiterte Bauoptionen zu verwenden.
+
+00:00:25.200,00:00:28.600
+Halten sie die erweiterte Bau-Modus Taste ($BUILD_MODE_FIX_CAM) gedrückt um dieses Menü nutzen zu können.
+
+00:00:29.000,00:00:36.400
+Der erweiterte Baumodus ermöglicht es die Größe des Baubereiches mit Reglern zu ändern oder die Ausrichtung der Blöcke durch Halten...
+
+00:00:36.440,00:00:39.600
+der erweiterten Baumodustaste ($BUILD_MODE_FIX_CAM) und dem Benutzen des Mausrades zu ändern.
+
+00:00:40.080,00:00:44.240
+Es gibt noch viele weitere Funktionen des erweiterten Baumodus, welche aber separat behandelt werden.
+

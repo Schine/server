@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>船隻生成: $SPAWN_SHIP, 觸發: $ACTIVATE, 船隻模式切換: $CHANGE_SHIP_MODE</Keybinds>
+<Description>Ship Core</Description>
+</Meta>

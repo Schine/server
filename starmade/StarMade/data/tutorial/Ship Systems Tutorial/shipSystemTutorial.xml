@@ -1,0 +1,83 @@
+<Tutorial description="How ship systems work">
+	<Start type="text">
+		<Content>Welcome to the Ship System Tutorial</Content>
+		<Duration>3000</Duration>
+		<Satisfied>StateA</Satisfied>
+	</Start>
+	
+	<StateA type="text">
+		<Content>
+		StarMade uses a system to quickly
+		calculate ship systems and their
+		connections, as well as groups of a particular blocks.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+		<Satisfied>StateB</Satisfied>
+	</StateA>
+	
+	<StateB type="text">
+		<Content>
+		A lot of systems work best in block-groups.
+		A block-group consists of two or more
+		blocks of the same type that are all touching each other. 
+		
+		A solid big cube of blocks is an example of a block-group, 
+		but the same goes for a line.		
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateA</Back>
+		<Satisfied>StateC</Satisfied>
+	</StateB>
+	
+	<StateC type="text">
+		<Content>
+		For some systems, it is more efficient
+		to arrange the groups in a certain way.
+		
+		The power recharge system uses this type, allowing the player 
+		to construct a powerful reactor as efficient as possible.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateB</Back>
+		<Satisfied>StateD</Satisfied>
+	</StateC>
+	
+	<StateD type="text">
+		<Content>
+		In this case, the dimension of the block-groups matter. 
+		This means that a solid big cube of
+		recharge power modules gives a lot less energy than the same
+		amount of blocks, laid out in a giant three-dimensional cross.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateC</Back>
+		<Satisfied>StateE</Satisfied>
+	</StateD>
+	
+	<StateE type="text">
+		<Content>
+		Another example for block-groups are the weapon modules.
+		Each group of weapons will fire one projectile. 
+		
+		You can either have one	big group, or multiple 
+		weaker small ones. Keep in mind that you'll 
+		receive a penalty, depending on 
+		how many separate weapon groups you have.
+		</Content>
+		<Duration>3000</Duration>
+		<Back>StateD</Back>
+		<Satisfied>End</Satisfied>
+	</StateE>
+	
+	<End type="text">
+		<Content>
+		This concludes the Ship System Tutorial.
+		Thanks for reading, 
+		and thanks for playing StarMade!
+		</Content>
+		<Duration>3000</Duration>
+		<Back>Start</Back>
+	</End>
+
+</Tutorial>

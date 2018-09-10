@@ -1,0 +1,27 @@
+00:00:00.880,00:00:02.600
+Use o mouse para olhar ao redor.
+
+00:00:02.640,00:00:06.560
+O movimento básico é alcançado para Frente ($FORWARD), 
+para Trás ($BACKWARDS), à Esquerda($STRAFE_LEFT)...
+
+00:00:06.600,00:00:08.200
+e à Direita ($STRAFE_RIGHT).
+
+00:00:08.400,00:00:13.800
+Para astronautas em gravidade zero, use as teclas de Mover para Cima ($UP) e Mover para Baixo ($DOWN).
+
+00:00:14.400,00:00:18.400
+Quando em gravidade zero você pode alinhar-se
+com uma estrutura pressionando a tecla Agarrar ($GRAPPLING_HOOK).
+
+00:00:19.000,00:00:23.000
+Quando dentro do campo gravitacional, use a tecla
+de Pulo ($JUMP) para movimentar-se verticalmente.
+
+00:00:23.400,00:00:27.600
+Enquanto se movimenta dentro do campo gravitacional, você pode andar mais lentamente usando a tecla de Caminhada ($WALK).
+
+00:00:27.800,00:00:30.680
+A maioria dos blocos podem ser utilizados para sentar-se ao pressionar a tecla de Sentar ($SIT).
+

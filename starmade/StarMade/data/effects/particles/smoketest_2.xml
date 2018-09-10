@@ -1,0 +1,1511 @@
+<ParticleSystem name="undefinedName" parent="noParent">
+<!--autocreated by the starmade particle system editor-->
+<Initial enabled="false">
+<duration>5.0</duration>
+<emissionBurst>500</emissionBurst>
+<gravityModifier>0.0</gravityModifier>
+<loop>true</loop>
+<maxParticles>2000</maxParticles>
+<playbackSpeed>1.0</playbackSpeed>
+<playOnAwake>false</playOnAwake>
+<randomSeed>0</randomSeed>
+<safeCollisionEventSize>0</safeCollisionEventSize>
+<simulationSpace>0</simulationSpace>
+<startColor>
+<Gradient>
+<Color percent="0.0">
+<red>255</red>
+<green>255</green>
+<blue>255</blue>
+<alpha>200</alpha>
+</Color>
+<Color percent="1.0">
+<red>255</red>
+<green>255</green>
+<blue>255</blue>
+<alpha>200</alpha>
+</Color>
+</Gradient>
+</startColor>
+<startDelay>0.0</startDelay>
+<startLifetime>5.0</startLifetime>
+<startRotationX base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startRotationX>
+<startRotationY base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startRotationY>
+<startRotationZ base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startRotationZ>
+<startSizeX base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startSizeX>
+<startSizeY base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startSizeY>
+<startSizeZ base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startSizeZ>
+<startSpeed base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</startSpeed>
+</Initial>
+<Emission enabled="false">
+<rate>100</rate>
+<useCurve>true</useCurve>
+<rateCurve base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.1</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</rateCurve>
+<type>0</type>
+</Emission>
+<ColorBySpeed enabled="true">
+<color>
+<Gradient>
+<Color percent="0.0">
+<red>255</red>
+<green>0</green>
+<blue>0</blue>
+<alpha>255</alpha>
+</Color>
+<Color percent="1.0">
+<red>255</red>
+<green>255</green>
+<blue>0</blue>
+<alpha>255</alpha>
+</Color>
+</Gradient>
+</color>
+<minSpeed>0.0</minSpeed>
+<maxSpeed>1.0</maxSpeed>
+</ColorBySpeed>
+<ColoroverLifetime enabled="true">
+<color>
+<Gradient>
+<Color percent="0.0">
+<red>255</red>
+<green>255</green>
+<blue>255</blue>
+<alpha>255</alpha>
+</Color>
+<Color percent="1.0">
+<red>255</red>
+<green>255</green>
+<blue>0</blue>
+<alpha>55</alpha>
+</Color>
+</Gradient>
+</color>
+</ColoroverLifetime>
+<Collision enabled="false">
+<dampen>0.0</dampen>
+<bounce>0.0</bounce>
+<lifetimeLoss>0.0</lifetimeLoss>
+<minKillSpeed>0.0</minKillSpeed>
+<particleRadius>0.0</particleRadius>
+<quality>1</quality>
+</Collision>
+<ForceoverLifetime enabled="false">
+<x base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</x>
+<y base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</y>
+<z base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</z>
+<space>0</space>
+<randomize>true</randomize>
+</ForceoverLifetime>
+<LimitVelocityoverLifetime enabled="false">
+<x base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</x>
+<y base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</y>
+<z base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</z>
+<dampen>1.0</dampen>
+</LimitVelocityoverLifetime>
+<Renderer enabled="false">
+<renderMode>0</renderMode>
+<sort>true</sort>
+<sortingFudge>0</sortingFudge>
+<normalDirection>1.0</normalDirection>
+<cameraScale>0.0</cameraScale>
+<speedScale>0.0</speedScale>
+<lengthScale>0.0</lengthScale>
+<material>smoke_color</material>
+<lighting>false</lighting>
+</Renderer>
+<RotationbySpeed enabled="false">
+<rotation base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</rotation>
+<minSpeed>0.0</minSpeed>
+<maxSpeed>1.0</maxSpeed>
+</RotationbySpeed>
+<RotationoverLifetime enabled="false">
+<rotation>0.0</rotation>
+<rotCurve base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</rotCurve>
+</RotationoverLifetime>
+<Shape enabled="false">
+<type>0</type>
+<angle>0.0</angle>
+<radius>0.0</radius>
+<emitFromShell>true</emitFromShell>
+<randomDirection>false</randomDirection>
+<boxX>1.0</boxX>
+<boxY>1.0</boxY>
+<boxZ>1.0</boxZ>
+<mesh/>
+</Shape>
+<SizebySpeed enabled="true">
+<size base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>0.98</Y>
+</Point>
+<Point index="1">
+<X>0.0125</X>
+<Y>0.22</Y>
+</Point>
+<Point index="2">
+<X>0.0175</X>
+<Y>0.22</Y>
+</Point>
+<Point index="3">
+<X>0.4175</X>
+<Y>0.08</Y>
+</Point>
+<Point index="4">
+<X>1.0</X>
+<Y>0.02</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</size>
+<minSpeed>0.0</minSpeed>
+<maxSpeed>1.0</maxSpeed>
+</SizebySpeed>
+<SizeoverLifetime enabled="false">
+<size base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</size>
+</SizeoverLifetime>
+<Sub-Emitter enabled="false"/>
+<TextureSheetAnimation enabled="false">
+<singleRow>false</singleRow>
+<randomRow>false</randomRow>
+<frameOverTime base="1.0" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</frameOverTime>
+<cycles>0.0</cycles>
+</TextureSheetAnimation>
+<VelocityoverLifetime enabled="true">
+<x base="1.001" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</x>
+<y base="1.001" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</y>
+<z base="1.001" integral="false">
+<Points0>
+<Point index="0">
+<X>0.0</X>
+<Y>1.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>1.0</Y>
+</Point>
+</Points0>
+<Points1>
+<Point index="0">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="1">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="2">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="3">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="4">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="5">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="6">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="7">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="8">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="9">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="10">
+<X>0.0</X>
+<Y>0.0</Y>
+</Point>
+<Point index="11">
+<X>1.0</X>
+<Y>0.0</Y>
+</Point>
+</Points1>
+</z>
+<space>0</space>
+</VelocityoverLifetime>
+</ParticleSystem>

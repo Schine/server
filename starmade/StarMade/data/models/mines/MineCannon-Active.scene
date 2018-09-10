@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="z" unitsPerMeter="3.93701" unitType="/10" minOgreVersion="1.8" ogreMaxVersion="2.6.1" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="10000"/>
+    </environment>
+    <nodes>
+        <node name="MineCannon-Active">
+            <position x="0" y="0" z="0"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="MineCannon-Active" castShadows="true" receiveShadows="true" meshFile="MineCannon-Active.mesh">
+                <subentities>
+                    <subentity index="0" materialName="MineCannon"/>
+                </subentities>
+            </entity>
+            <node name="output2">
+                <position x="0.133031" y="-0.437971" z="0.260694"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="output1">
+                <position x="-0.133027" y="-0.437971" z="0.260694"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="output3">
+                <position x="-0.133027" y="-0.437971" z="-0.260694"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+            <node name="output4">
+                <position x="0.133031" y="-0.437971" z="-0.259289"/>
+                <scale x="1" y="1" z="1"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+            </node>
+        </node>
+    </nodes>
+</scene>

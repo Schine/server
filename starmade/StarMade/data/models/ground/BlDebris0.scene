@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.8" ogreMaxVersion="2.4.7" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="100000"/>
+    </environment>
+    <nodes>
+        <node name="BlDebris_0">
+            <position x="-0.185816" y="0.0" z="-0.575504"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="BlDebris_0" castShadows="true" receiveShadows="true" meshFile="BlDebris_0.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial"/>
+                </subentities>
+            </entity>
+        </node>
+        <node name="BlDebris_1">
+            <position x="0.185816" y="0.0" z="0.314085"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="BlDebris_1" castShadows="true" receiveShadows="true" meshFile="BlDebris_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial"/>
+                </subentities>
+            </entity>
+        </node>
+        <node name="BlDebris_2">
+            <position x="-0.254298" y="0.0" z="0.247732"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="BlDebris_2" castShadows="true" receiveShadows="true" meshFile="BlDebris_2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial"/>
+                </subentities>
+            </entity>
+        </node>
+        <node name="BlDebris_3">
+            <position x="-0.254298" y="0.0" z="-2.18557e-008"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="BlDebris_3" castShadows="true" receiveShadows="true" meshFile="BlDebris_3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial"/>
+                </subentities>
+            </entity>
+        </node>
+        <node name="BlDebris_4">
+            <position x="0.254975" y="0.0" z="-0.259663"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <entity name="BlDebris_4" castShadows="true" receiveShadows="true" meshFile="BlDebris_4.mesh">
+                <subentities>
+                    <subentity index="0" materialName="NoMaterial"/>
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

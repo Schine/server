@@ -1,0 +1,12 @@
+<skeleton blendmode="average">
+    <bones>
+        <bone id="0" name="RootWeap">
+            <position x="-4.76837e-008" y="0.0161884" z="0.0015502"/>
+            <rotation angle="0">
+                <axis x="-0.655559" y="-0.752984" z="0.0570679"/>
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy/>
+    <animations/>
+</skeleton>

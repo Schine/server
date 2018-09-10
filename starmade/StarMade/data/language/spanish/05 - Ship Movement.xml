@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>Adelante: $FORWARD_SHIP, Backward: $BACKWARDS_SHIP, Mover en lugar Izquierda: $STRAFE_LEFT_SHIP, Mover en lugar Derecha: $STRAFE_RIGHT_SHIP, Mover en lugar Arriba: $UP_SHIP, Mover en lugar Abajo: $DOWN_SHIP Rotar Izquierda: $ROTATE_LEFT_SHIP Rotar Derecha: $ROTATE_RIGHT_SHIP, Girar Nave: $ROLL, Frenar: $BRAKE, Cancelar Rotacion Nave: $CANCEL_SHIP, Alinear Camara Nave: $ALIGN_SHIP</Keybinds>
+<Description>Ship Movement</Description>
+</Meta>

@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>前进︰ $FORWARD ，后退︰ $BACKWARDS，左平移︰ $STRAFE_LEFT，右平移︰ $STRAFE_RIGHT，上平移︰ $UP，下平移︰ $DOWN，格斗︰ $GRAPPLING_HOOK，跳︰ $JUMP，步行︰ $WALK，坐︰ $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>

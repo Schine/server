@@ -1,0 +1,4 @@
+<Meta>
+<Keybinds>Do przodu: $FORWARD, Do tyłu: $BACKWARDS, Odbij w lewo: $STRAFE_LEFT, Odbij w prawo: $STRAFE_RIGHT, Wzleć: $UP, Opadaj: $DOWN, Chwytanie: $GRAPPLING_HOOK, Skok: $JUMP, Chodzenie: $WALK, Siadanie: $SIT</Keybinds>
+<Description>Character Movement</Description>
+</Meta>
